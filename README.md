@@ -34,7 +34,7 @@ El proyecto está dividido en 4 módulos principales:
 
 ## Historias de Usuario
 
-### Desarrollo (Backend)
+###  Modulo Desarrollo (Backend)
 - HU01: Autenticación de usuario en el sistema CRM URBANY
 - HU03: Registro de usuario individual en CRM URBANY
 - HU14: Gestión de propiedades inmobiliarias
@@ -48,7 +48,7 @@ El proyecto está dividido en 4 módulos principales:
 - HU30: Integración con APIs externas
 - HU31: Gestión de documentos y archivos
 
-### Maquetación (Frontend)
+### Modulos Maqueta (Simulación)
 - HU02: Registro inicial de inmobiliaria en CRM URBANY
 - HU04: Gestión de plantillas de email para respuestas automáticas
 - HU05: Configuración de automatización para notificación de nuevas propiedades
