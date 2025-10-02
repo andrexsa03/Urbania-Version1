@@ -1,0 +1,5576 @@
+﻿Historias de usuarios : 1, 3, 14, 16, 19, 20, 21, 26, 27, 28, 30 ,31
+
+Historias de usuarios (Maquetacion) :2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 17, 18, 22, 23, 24, 25, 2.
+
+
+
+
+
+
+HU01: Autenticación de usuario en el sistema CRM URBANY
+
+
+EtiHU01: Autenticación de usuario en el sistema CRM URBANY
+
+
+Etiquetas:
+
+
+AUTENTICACIÓN (azul)
+
+
+SEGURIDAD (rojo)
+
+
+LOGIN (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como usuario del CRM URBANY quiero poder autenticarme en el sistema mediante correo electrónico y contraseña para acceder de forma segura a todas las funcionalidades de gestión inmobiliaria.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a pantalla de inicio de sesión con branding "CRM URBANY"
+
+
+✅ Ingresar correo electrónico en campo designado (johndoe@example.com)
+
+
+✅ Introducir contraseña en campo seguro (con enmascaramiento)
+
+
+✅ Validar campos requeridos antes del envío del formulario
+
+
+✅ Recordar credenciales mediante opción "Recuérdame"
+
+
+✅ Recuperar contraseña en caso de olvido mediante enlace
+
+
+✅ Iniciar sesión mediante botón dedicado
+
+
+✅ Registrar nueva cuenta si no se tiene una existente
+
+
+✅ Visualizar información de copyright (© 2021 - 2025 All Rights Reserved)
+
+
+✅ Recibir mensajes de error claros en caso de credenciales inválidas
+
+
+Checklist de Tareas:
+
+
+Desarrollar pantalla de login con diseño de marca URBANY
+
+
+Implementar campo de correo electrónico con validación
+
+
+Crear campo de contraseña con enmascaramiento
+
+
+Desarrollar opción "Recuérdame" para persistencia de sesión
+
+
+Implementar enlace de recuperación de contraseña
+
+
+Crear botón de "Iniciar sesión" con validación
+
+
+Desarrollar enlace de registro para nuevos usuarios
+
+
+Implementar mensajes de error y éxito
+
+
+Crear footer con información de copyright
+
+
+Campos del Formulario:
+
+
+Correo electrónico: johndoe@example.com (campo requerido)
+
+
+Contraseña: ********* (campo seguro requerido)
+
+
+Checkbox: "Recuérdame"
+
+
+Enlace: "¿Olvidaste la contraseña?"
+
+
+Botones de Acción:
+
+
+Principal: "Iniciar sesión"
+
+
+Secundario: "No tienes una cuenta? Regístrate"
+
+
+Información Legal:
+
+
+© 2021 - 2025 All Rights Reserved
+
+
+Prioridad: Alta
+Estimación: 5 puntos
+Epico: Seguridad y Autenticación
+
+
+HU02: Registro inicial de inmobiliaria en CRM URBANY
+
+
+Etiquetas:
+
+
+REGISTRO (azul)
+
+
+ONBOARDING (naranja)
+
+
+INMOBILIARIA (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como administrador de una inmobiliaria quiero registrar mi empresa en el CRM URBANY proporcionando toda la información corporativa necesaria para comenzar a utilizar las herramientas de gestión de propiedades, contactos y negocios.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder al formulario de registro con mensaje de bienvenida motivador
+
+
+✅ Ingresar nombre oficial de la inmobiliaria (campo requerido)
+
+
+✅ Registrar teléfono corporativo de contacto
+
+
+✅ Proporcionar email institucional válido
+
+
+✅ Completar dirección completa con departamento/provincia
+
+
+✅ Especificar provincia y distrito de ubicación
+
+
+✅ Validar formato y completitud de todos los campos antes de continuar
+
+
+✅ Proceder al siguiente paso del onboarding mediante botón "Continuar"
+
+
+✅ Recibir confirmación visual de campos correctamente completados
+
+
+✅ Tener opción alternativa de registro mediante otros métodos ("O USA")
+
+
+Checklist de Tareas:
+
+
+Desarrollar formulario de registro de inmobiliaria
+
+
+Implementar campo "Nombre de su inmobiliaria" (texto)
+
+
+Crear campo "Teléfono" con validación numérica
+
+
+Desarrollar campo "Email" con validación de formato
+
+
+Implementar campos de dirección: "Dirección" y "Departamento"
+
+
+Crear campos geográficos: "Provincia" y "Distrito"
+
+
+Desarrollar validación en tiempo real de campos requeridos
+
+
+Implementar botón "Continuar" para siguiente paso
+
+
+Crear opciones de registro alternativo ("O USA")
+
+
+Campos del Formulario:
+
+
+Nombre de su inmobiliaria: +++++++++ (texto, requerido)
+
+
+Teléfono: +++++++++ (numérico, requerido)
+
+
+Email: +++++++++ (email válido, requerido)
+
+
+Dirección: +++++++++ (texto, requerido)
+
+
+Departamento: +++++++++ (texto, requerido)
+
+
+Provincia: +++++++++ (texto, requerido)
+
+
+Distrito: +++++++++ (texto, requerido)
+
+
+Mensaje de Bienvenida:
+"¡Nos alegramos verte aquí! Añade la información de tu inmobiliaria para comenzar a utilizar CRM urbany."
+
+
+Botón de Acción: "Continuar"
+
+
+Alternativa: "O USA" - Otros métodos de registro
+
+
+Prioridad: Alta
+Estimación: 8 puntos
+Epico: Onboarding de Clientes
+
+
+HU03: Registro de usuario individual en CRM URBANY
+
+
+Etiquetas:
+
+
+REGISTRO (azul)
+
+
+USUARIO (naranja)
+
+
+SEGURIDAD (verde)
+
+
+ONBOARDING (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como nuevo usuario quiero registrarme en el CRM URBANY proporcionando mi correo electrónico y creando una contraseña segura para comenzar a utilizar la plataforma de gestión inmobiliaria.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder al formulario de registro con branding "CRM URBANY"
+
+
+✅ Ingresar correo electrónico válido (johndoe@example.com)
+
+
+✅ Crear contraseña segura con enmascaramiento
+
+
+✅ Confirmar contraseña ingresándola por segunda vez
+
+
+✅ Validar que ambas contraseñas coincidan
+
+
+✅ Verificar formato válido de correo electrónico
+
+
+✅ Proceder al siguiente paso mediante botón "Continuar"
+
+
+✅ Recibir mensaje de bienvenida motivador
+
+
+✅ Tener opción de registro alternativo ("O USA")
+
+
+✅ Completar registro de forma intuitiva y segura
+
+
+Checklist de Tareas:
+
+
+Desarrollar formulario de registro de usuario individual
+
+
+Implementar campo "Correo electrónico" con validación
+
+
+Crear campo "Contraseña" con enmascaramiento y requisitos de seguridad
+
+
+Desarrollar campo "Confirmar contraseña" con validación de coincidencia
+
+
+Implementar mensaje de bienvenida atractivo
+
+
+Crear botón "Continuar" para siguiente paso del onboarding
+
+
+Desarrollar opciones de registro alternativo
+
+
+Implementar validación en tiempo real de campos
+
+
+Crear feedback visual de errores y éxitos
+
+
+Campos del Formulario:
+
+
+Correo electrónico: johndoe@example.com (validación de formato)
+
+
+Contraseña: *********** (mínimo 8 caracteres, enmascarado)
+
+
+Confirmar contraseña: *********** (debe coincidir con contraseña)
+
+
+Mensaje de Bienvenida:
+"¡Nos alegramos verte aquí! Añade la información de tu inmobiliaria para comenzar a utilizar CRM urbany."
+
+
+Botón de Acción: "Continuar"
+
+
+Alternativa: "O USA" - Otros métodos de registro/autorización
+
+
+Prioridad: Alta
+Estimación: 6 puntos
+Epico: Onboarding de Clientes
+
+
+HU04: Gestión de plantillas de email para respuestas automáticas a consultas
+
+
+Etiquetas:
+
+
+AUTOMATIZACIÓN (azul)
+
+
+EMAIL (naranja)
+
+
+PLANTILLAS (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero crear y gestionar plantillas de email personalizables para responder automáticamente a nuevas consultas de clientes, incluyendo información específica de propiedades y datos del contacto.
+
+
+Criterios de Aceptación:
+
+
+✅ Buscar plantillas existentes por nombre
+
+
+✅ Crear nueva plantilla de email para "Nueva consulta"
+
+
+✅ Utilizar variables dinámicas en plantillas: [Saludo inicial], [Nombre del contacto], [Origen de la consulta], [Enlace de la propiedad], [Bloque de propiedades similares], [Firma]
+
+
+✅ Previsualizar plantilla antes de guardar
+
+
+✅ Integrar plantilla con flujo de automatización de nuevas consultas
+
+
+✅ Mantener formato y estilo profesional en emails automáticos
+
+
+✅ Permitir edición y duplicación de plantillas existentes
+
+
+Checklist de Tareas:
+
+
+Desarrollar editor de plantillas de email WYSIWYG
+
+
+Implementar sistema de variables dinámicas
+
+
+Crear funcionalidad de búsqueda de plantillas
+
+
+Desarrollar previsualización en tiempo real
+
+
+Integrar con sistema de automatización de consultas
+
+
+Implementar guardado y gestión de plantillas
+
+
+Crear plantillas predefinidas para casos comunes
+
+
+Desarrollar sistema de variables personalizables
+
+
+Variables Dinámicas Requeridas:
+
+
+[Saludo inicial] - Saludo personalizado según horario
+
+
+[Nombre del contacto] - Nombre del cliente
+
+
+[Origen de la consulta] - Portal/web de origen
+
+
+[Enlace de la propiedad] - Link a propiedad consultada
+
+
+[Bloque de propiedades similares] - Recomendaciones automáticas
+
+
+[Firma] - Datos y contacto del agente
+
+
+Prioridad: Alta
+Estimación: 13 puntos
+Epico: Automatización de Procesos
+
+
+HU05: Configuración de automatización para notificación de nuevas propiedades
+
+
+Etiquetas:
+
+
+AUTOMATIZACIÓN (azul)
+
+
+EMAIL (naranja)
+
+
+PROPIEDADES (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero configurar una automatización que envíe automáticamente un email a clientes interesados cada vez que se añade una nueva propiedad, utilizando plantillas personalizables con seguimiento de engagement.
+
+
+Criterios de Aceptación:
+
+
+✅ Configurar trigger "al añadir nueva propiedad" para enviar emails
+
+
+✅ Seleccionar plantilla de email desde librería de plantillas
+
+
+✅ Habilitar/deshabilitar seguimiento de aperturas de emails
+
+
+✅ Habilitar/deshabilitar seguimiento de clics en enlaces del email
+
+
+✅ Activar/desactivar la automatización completa
+
+
+✅ Visualizar estado de automatizaciones activas en dashboard
+
+
+✅ Filtrar destinatarios por criterios de interés (ubicación, tipo de propiedad, precio)
+
+
+✅ Recibir confirmación de configuración exitosa
+
+
+Checklist de Tareas:
+
+
+Desarrollar interfaz de selección de triggers
+
+
+Implementar selector de plantillas de email
+
+
+Crear toggle para seguimiento de aperturas
+
+
+Crear toggle para seguimiento de clics
+
+
+Desarrollar botón "Activar automatización"
+
+
+Implementar sistema de filtrado de destinatarios
+
+
+Crear panel de estado de automatizaciones
+
+
+Desarrollar confirmación visual de activación
+
+
+Configuración de Seguimiento:
+
+
+Seguimiento de aperturas de email
+
+
+Seguimiento de clics en enlaces
+
+
+Reporte de engagement por automatización
+
+
+Prioridad: Alta
+Estimación: 8 puntos
+Epico: Automatización de Procesos
+
+
+HU06: Integración de correo electrónico profesional con el CRM
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+EMAIL (naranja)
+
+
+CONFIGURACIÓN (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como usuario de Uthany quiero integrar mi cuenta de correo electrónico profesional con el CRM para sincronizar comunicaciones, realizar seguimiento de emails y utilizar plantillas personalizables, mejorando mi eficiencia en la gestión de contactos y propiedades.
+
+
+Criterios de Aceptación:
+
+
+✅ Verificar configuración previa del sitio web antes de la integración
+
+
+✅ Sincronizar buzón de correo de Uthany con cuenta de email profesional
+
+
+✅ Configurar sistema de difusión de propiedades por email
+
+
+✅ Habilitar seguimiento de aperturas de correos electrónicos
+
+
+✅ Utilizar plantillas personalizables para ahorrar tiempo
+
+
+✅ Configurar firma de email personalizada con apariencia profesional
+
+
+✅ Compartir disponibilidad con compañeros de trabajo
+
+
+✅ Sincronización bidireccional de emails y contactos
+
+
+Checklist de Tareas:
+
+
+Desarrollar validador de configuración de sitio web
+
+
+Implementar conexión con proveedores de email (Gmail, Outlook, etc.)
+
+
+Crear sistema de sincronización de buzón de correo
+
+
+Desarrollar funcionalidad de seguimiento de aperturas
+
+
+Integrar con sistema de plantillas de email existente
+
+
+Implementar editor de firma de email profesional
+
+
+Crear sistema de compartir disponibilidad entre usuarios
+
+
+Desarrollar panel de control de integración de email
+
+
+Funcionalidades Clave:
+
+
+Sincronización de correos Uthany ↔ Email profesional
+
+
+Difusión masiva de propiedades por email
+
+
+Tracking de aperturas de emails
+
+
+Plantillas personalizables
+
+
+Firma profesional unificada
+
+
+Compartir disponibilidad con equipo
+
+
+Prioridad: Alta
+Estimación: 18 puntos
+Epico: Integraciones de Plataforma
+
+
+HU07: Integración con redes inmobiliarias para mayor alcance de propiedades
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+REDES INMOBILIARIAS (naranja)
+
+
+PROPIEDADES (verde)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como agente inmobiliario quiero integrar el CRM con redes inmobiliarias externas para obtener mayor alcance y concretar más negocios, pudiendo seleccionar en qué redes compartir mis propiedades y gestionar comisiones.
+
+
+Criterios de Aceptación:
+
+
+✅ Seleccionar redes inmobiliarias específicas para compartir propiedades
+
+
+✅ Compartir fichas de propiedades entre colegas de la red
+
+
+✅ Publicar fichas de otras propiedades con mis datos de contacto
+
+
+✅ Asignar comisiones personalizadas para cada propiedad
+
+
+✅ Gestionar propiedades en la red Urbany
+
+
+✅ Configurar acciones automáticas al cargar una nueva propiedad
+
+
+✅ Sincronizar actualizaciones de propiedades entre el CRM y las redes
+
+
+✅ Visualizar estadísticas de performance por red inmobiliaria
+
+
+Checklist de Tareas:
+
+
+Desarrollar selector de redes inmobiliarias disponibles
+
+
+Implementar sistema de compartición de fichas entre colegas
+
+
+Crear funcionalidad de publicación cruzada de propiedades
+
+
+Desarrollar configurador de comisiones por propiedad
+
+
+Implementar gestión de propiedades en red Urbany
+
+
+Crear reglas automáticas para nuevas propiedades
+
+
+Desarrollar sincronización bidireccional de datos
+
+
+Implementar dashboard de analytics por red
+
+
+Configuración de Redes:
+
+
+Selección de redes destino para cada propiedad
+
+
+Configuración de comisiones específicas
+
+
+Reglas de publicación automática
+
+
+Compartición controlada con colegas
+
+
+Prioridad: Media
+Estimación: 15 puntos
+Epico: Integraciones de Plataforma
+
+
+HU08: Gestión de invitaciones y creación de redes inmobiliarias
+
+
+Etiquetas:
+
+
+REDES INMOBILIARIAS (azul)
+
+
+COLABORACIÓN (naranja)
+
+
+INVITACIONES (verde)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar invitaciones a redes existentes y tener la capacidad de crear mis propias redes para invitar colegas, facilitando la colaboración y el intercambio de propiedades dentro del ecosistema inmobiliario.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar estado de invitaciones recibidas (vacío o pendientes)
+
+
+✅ Crear nueva red inmobiliaria personalizada
+
+
+✅ Invitar colegas a unirse a mi red creada
+
+
+✅ Gestionar invitaciones enviadas (aceptar/rechazar/cancelar)
+
+
+✅ Configurar permisos y roles dentro de la red
+
+
+✅ Establecer reglas de compartición de propiedades en la red
+
+
+✅ Recibir notificaciones de nuevas invitaciones
+
+
+✅ Visualizar lista de redes a las que pertenezco
+
+
+Checklist de Tareas:
+
+
+Desarrollar pantalla de estado de invitaciones
+
+
+Implementar creador de redes inmobiliarias
+
+
+Crear sistema de envío de invitaciones a colegas
+
+
+Desarrollar gestor de invitaciones pendientes
+
+
+Implementar sistema de roles y permisos
+
+
+Crear configurador de reglas de compartición
+
+
+Desarrollar sistema de notificaciones
+
+
+Implementar lista de redes del usuario
+
+
+Estados de Invitación:
+
+
+"Aún no has recibido invitaciones" (estado inicial)
+
+
+Invitaciones pendientes de respuesta
+
+
+Invitaciones enviadas pendientes
+
+
+Redes activas del usuario
+
+
+Prioridad: Media
+Estimación: 12 puntos
+Epico: Redes Inmobiliarias
+
+
+HU09: Integración con plataformas de email marketing para campañas automatizadas
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+EMAIL MARKETING (naranja)
+
+
+MYPRINT (verde)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como agente inmobiliario quiero integrar el CRM con plataformas de email marketing como MyPrint para gestionar campañas automatizadas de propiedades y definir acciones específicas al cargar nuevas propiedades en el sistema.
+
+
+Criterios de Aceptación:
+
+
+✅ Integrar con plataforma MyPrint de email marketing
+
+
+✅ Configurar acciones automáticas al cargar nuevas propiedades
+
+
+✅ Sincronizar base de contactos entre CRM y plataforma de email marketing
+
+
+✅ Crear campañas segmentadas basadas en preferencias de clientes
+
+
+✅ Automatizar envíos masivos de propiedades a listas de contactos
+
+
+✅ Seguir métricas de engagement de campañas de email marketing
+
+
+✅ Gestionar plantillas de email marketing desde el CRM
+
+
+✅ Sincronizar propiedades y sus datos con campañas automáticas
+
+
+Checklist de Tareas:
+
+
+Desarrollar conexión API con MyPrint
+
+
+Implementar configuración de acciones para nuevas propiedades
+
+
+Crear sincronización bidireccional de contactos
+
+
+Desarrollar segmentador de audiencias para campañas
+
+
+Implementar sistema de envíos masivos automatizados
+
+
+Crear dashboard de métricas de campañas
+
+
+Integrar con editor de plantillas de email
+
+
+Desarrollar sincronización de datos de propiedades
+
+
+Configuración de Automatización:
+
+
+Definir acciones al cargar nueva propiedad
+
+
+Seleccionar listas de contactos destino
+
+
+Configurar timing de envíos automáticos
+
+
+Establecer criterios de segmentación
+
+
+Prioridad: Media
+Estimación: 14 puntos
+Epico: Integraciones de Plataforma
+
+
+HU10: Configuración de integración con MyPerfit para Email Marketing
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+EMAIL MARKETING (naranja)
+
+
+MYPERFIT (verde)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador del CRM URBANY, quiero configurar la integración con la plataforma de email marketing MyPerfit, ingresando el API Key y los datos de la cuenta, para sincronizar contactos y crear listas de manera efectiva.
+
+
+Criterios de Aceptación:
+
+
+✅ Poder seleccionar "Email marketing" dentro de las categorías de integración.
+
+
+✅ Visualizar los campos de entrada para "API Key" y "Cuenta" específicos de MyPerfit.
+
+
+✅ Poder introducir el API Key y los detalles de la cuenta de MyPerfit.
+
+
+✅ Que el botón "Guardar Configuración" esté habilitado una vez que se hayan introducido los datos requeridos.
+
+
+✅ Recibir una confirmación visual de que la configuración ha sido guardada exitosamente.
+
+
+✅ Que el sistema valide los datos introducidos (API Key y Cuenta) con MyPerfit al guardar.
+
+
+Checklist de Tareas:
+
+
+Habilitar la sección de "Email marketing" en el menú de integraciones.
+
+
+Desarrollar los campos de entrada para "API Key" y "Cuenta" de MyPerfit.
+
+
+Implementar la lógica para el botón "Guardar Configuración".
+
+
+Desarrollar la conexión backend para guardar las credenciales en la base de datos.
+
+
+Crear la validación de credenciales con la API de MyPerfit.
+
+
+Desarrollar un mensaje de éxito/error después de guardar.
+
+
+Configuración de Automatización (Hipotética, ya que la imagen no muestra detalles de automatización en esta sección, pero es común en estas integraciones):
+
+
+(Hipotético) Sincronización automática de contactos: Definir frecuencia de sincronización (ej. cada 24h, en tiempo real).
+
+
+(Hipotético) Mapeo de campos: Permitir al usuario mapear campos de contactos entre CRM y MyPerfit.
+
+
+(Hipotético) Creación de listas automáticas: Opción para crear nuevas listas en MyPerfit basadas en criterios del CRM.
+
+
+Prioridad: Media
+Estimación: 8 puntos
+Épico: Integraciones de Plataforma
+
+
+HU11: Integración de redes sociales - Instagram Business y WhatsApp Business
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+INSTAGRAM (rosa)
+
+
+WHATSAPP (verde)
+
+
+FACEBOOK (azul claro)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como inmobiliaria quiero integrar nuestras cuentas de Instagram Business y WhatsApp Business con el CRM para centralizar todas las comunicaciones y publicaciones, mejorando la gestión de redes sociales y conversaciones con clientes.
+
+
+Criterios de Aceptación:
+
+
+✅ Integrar cuenta de Instagram Business vinculada a Facebook Business
+
+
+✅ Publicar propiedades directamente desde el CRM a Instagram
+
+
+✅ Conectar cuenta de la inmobiliaria con Facebook Business
+
+
+✅ Conectar cuentas individuales de agentes con Facebook
+
+
+✅ Integrar WhatsApp Business API para todo el equipo
+
+
+✅ Centralizar conversaciones de WhatsApp en el CRM
+
+
+✅ Ofrecer integración alternativa vía QR para WhatsApp personal
+
+
+✅ Guiar al usuario en el proceso de vinculación Facebook-Instagram
+
+
+✅ Proporcionar políticas de privacidad claras
+
+
+Checklist de Tareas:
+
+
+Desarrollar integración con Instagram Business API
+
+
+Implementar publicador de propiedades a Instagram
+
+
+Crear conexión con Facebook Business Manager
+
+
+Desarrollar sistema multi-agente para conexiones Facebook
+
+
+Implementar WhatsApp Business API oficial
+
+
+Crear centralizador de conversaciones de WhatsApp
+
+
+Desarrollar integración alternativa WhatsApp vía QR
+
+
+Implementar guías paso a paso para configuración
+
+
+Crear documentación de políticas de privacidad
+
+
+Flujos de Integración:
+Instagram: Facebook Business → Instagram Business → CRM
+WhatsApp Oficial: Facebook Business → WhatsApp Business API → CRM
+WhatsApp Alternativo: Escanear QR → Sincronizar conversaciones → CRM
+
+
+Prioridad: Alta
+Estimación: 24 puntos
+Epico: Integraciones de Redes Sociales
+
+
+HU12: Configuración de integraciones oficiales y alternativas para redes sociales
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+INSTAGRAM (rosa)
+
+
+WHATSAPP BUSINESS (verde)
+
+
+API OFICIAL (naranja)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como usuario del CRM quiero configurar integraciones tanto oficiales como alternativas con Instagram Business y WhatsApp para publicar propiedades y centralizar conversaciones, teniendo opciones flexibles según las capacidades de mi negocio.
+
+
+Criterios de Aceptación:
+
+
+✅ Integrar cuenta de Instagram Business para publicar a través del CRM
+
+
+✅ Configurar WhatsApp Business API mediante cuenta de Facebook Business
+
+
+✅ Conectar todo el equipo a un número único de WhatsApp Business
+
+
+✅ Centralizar todas las conversaciones de WhatsApp en el CRM vía API oficial
+
+
+✅ Ofrecer integración alternativa WhatsApp escaneando código QR
+
+
+✅ Sincronizar conversaciones de WhatsApp personal con el CRM
+
+
+✅ Mantener separación clara entre integraciones oficiales y alternativas
+
+
+✅ Guiar al usuario en la selección del tipo de integración según sus necesidades
+
+
+Checklist de Tareas:
+
+
+Desarrollar conexión con Instagram Business API
+
+
+Implementar publicador de propiedades en Instagram
+
+
+Crear integración con WhatsApp Business API oficial
+
+
+Desarrollar sistema de número compartido para equipo
+
+
+Implementar centralizador de conversaciones WhatsApp
+
+
+Crear integración alternativa WhatsApp vía QR
+
+
+Desarrollar escáner de código QR para sincronización
+
+
+Implementar selector de tipo de integración
+
+
+Crear documentación comparativa de opciones
+
+
+Opciones de Integración:
+
+
+Oficiales: Instagram Business + WhatsApp Business API (más completo)
+
+
+Alternativa: WhatsApp personal vía QR (más sencillo)
+
+
+Prioridad: Alta
+Estimación: 18 puntos
+Epico: Integraciones de Redes Sociales
+
+
+HU13: Integración con portales inmobiliarios para publicación y gestión de propiedades
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+PORTALES (naranja)
+
+
+PROPIEDADES (verde)
+
+
+PUBLICACIÓN (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero integrar el CRM con múltiples portales inmobiliarios para publicar, editar y eliminar propiedades de manera centralizada, sincronizando automáticamente las consultas de clientes desde todos los portales.
+
+
+Criterios de Aceptación:
+
+
+✅ Integrar con portales personalizados: MercadoLibre, InmoUP, Página Web Zolics, Inmoclick, Broklan
+
+
+✅ Integrar con portales pagos: Proppit
+
+
+✅ Publicar propiedades en múltiples portales simultáneamente
+
+
+✅ Editar propiedades sincronizando cambios en todos los portales conectados
+
+
+✅ Eliminar propiedades de los portales desde el CRM
+
+
+✅ Sincronizar consultas de clientes desde portales al CRM
+
+
+✅ Gestionar credenciales de cuenta existente o crear nueva cuenta en Proppit
+
+
+✅ Validar formato de email para creación de cuentas en portales
+
+
+Checklist de Tareas:
+
+
+Desarrollar integración con API de MercadoLibre
+
+
+Implementar conexión con InmoUP
+
+
+Crear integración con páginas web Zolics
+
+
+Desarrollar conexión con Inmoclick
+
+
+Implementar integración con Broklan
+
+
+Crear conexión con Proppit (portal pago)
+
+
+Desarrollar publicador multi-portal simultáneo
+
+
+Implementar sincronizador bidireccional de propiedades
+
+
+Crear gestor de credenciales y cuentas de portales
+
+
+Configuración de Portales:
+
+
+Portales existentes: Ingresar email de cuenta creada
+
+
+Portales nuevos: Ingresar email para creación automática de cuenta
+
+
+Campo Requerido: Correo electrónico (example@gmail.com)
+
+
+Prioridad: Alta
+Estimación: 28 puntos
+Epico: Integraciones con Portales
+
+
+HU14: Gestión centralizada del perfil de la inmobiliaria y configuración del sistema
+
+
+Etiquetas:
+
+
+PERFIL (azul)
+
+
+CONFIGURACIÓN (naranja)
+
+
+GESTIÓN (verde)
+
+
+ADMINISTRACIÓN (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador de la inmobiliaria quiero gestionar centralizadamente toda la configuración del sistema, usuarios, sucursales e integraciones desde un menú unificado para mantener el control completo de la plataforma.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder al perfil completo de la inmobiliaria desde el dashboard principal
+
+
+✅ Gestionar todas las integraciones del sistema desde un menú centralizado
+
+
+✅ Administrar usuarios y permisos del equipo
+
+
+✅ Configurar y gestionar múltiples sucursales de la inmobiliaria
+
+
+✅ Gestionar automatizaciones de procesos desde sección dedicada
+
+
+✅ Configurar optimizaciones del sistema y rendimiento
+
+
+✅ Administrar sitio web y blog de la inmobiliaria
+
+
+✅ Gestionar suscripción y plan de servicio
+
+
+✅ Utilizar sistema de referidos "Invita y gana"
+
+
+✅ Acceder a centro de ayuda y soporte
+
+
+✅ Visualizar notificación de 150 mensajes pendientes en el menú principal
+
+
+Checklist de Tareas:
+
+
+Desarrollar panel de perfil de inmobiliaria
+
+
+Crear gestor centralizado de integraciones
+
+
+Implementar sistema de gestión de usuarios y roles
+
+
+Desarrollar administrador de sucursales múltiples
+
+
+Crear panel de automatizaciones del sistema
+
+
+Implementar configurador de optimizaciones
+
+
+Desarrollar gestor de sitio web y blog
+
+
+Crear sistema de gestión de suscripciones
+
+
+Implementar programa de referidos "Invita y gana"
+
+
+Desarrollar centro de ayuda integrado
+
+
+Mostrar notificaciones de mensajes pendientes
+
+
+Secciones de Configuración:
+
+
+Perfil: Configuración básica de la inmobiliaria
+
+
+Integraciones: Conexiones con terceros
+
+
+Usuarios: Gestión del equipo
+
+
+Sucursales: Administración multi-locación
+
+
+Automatización: Flujos de trabajo
+
+
+Optimizaciones: Mejoras de rendimiento
+
+
+Sitio Web + Blog: Presencia online
+
+
+Suscripción: Gestión de planes
+
+
+Referidos: Programa de incentivos
+
+
+Prioridad: Media
+Estimación: 22 puntos
+Epico: Administración del Sistema
+
+
+HU15: Actualización a Licencia Profesional para gestión multi-sucursal
+
+
+Etiquetas:
+
+
+LICENCIA (azul)
+
+
+SUCURSALES (naranja)
+
+
+UPGRADE (verde)
+
+
+ORGANIZACIÓN (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador de una inmobiliaria con múltiples ubicaciones quiero actualizar a la Licencia Profesional para habilitar la gestión de sucursales y organizar mejor la información asignando propiedades, negocios y contactos a sus sucursales correspondientes.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a información sobre beneficios de Licencia Profesional
+
+
+✅ Visualizar descripción clara de funcionalidades de gestión de sucursales
+
+
+✅ Realizar upgrade a Licencia Profesional desde el dashboard
+
+
+✅ Habilitar módulo de gestión multi-sucursal después de la actualización
+
+
+✅ Asignar propiedades a sucursales específicas
+
+
+✅ Asignar negocios a sucursales correspondientes
+
+
+✅ Organizar contactos por sucursal
+
+
+✅ Mantener separación de información entre sucursales
+
+
+✅ Generar reportes por sucursal individual o consolidados
+
+
+Checklist de Tareas:
+
+
+Desarrollar pantalla informativa de Licencia Profesional
+
+
+Implementar descripción de beneficios de multi-sucursal
+
+
+Crear proceso de upgrade a Licencia Profesional
+
+
+Desarrollar módulo de gestión de sucursales
+
+
+Implementar asignador de propiedades a sucursales
+
+
+Crear asignador de negocios a sucursales
+
+
+Desarrollar organizador de contactos por sucursal
+
+
+Implementar separación de datos entre sucursales
+
+
+Crear sistema de reportes multi-sucursal
+
+
+Beneficios de Licencia Profesional:
+
+
+✅ Organización mejorada de información
+
+
+✅ Asignación de propiedades por sucursal
+
+
+✅ Asignación de negocios por sucursal
+
+
+✅ Organización de contactos por sucursal
+
+
+✅ Gestión centralizada multi-ubicación
+
+
+Botón de Acción: "+ Actualiza a Licencia Profesional"
+
+
+Prioridad: Media
+Estimación: 15 puntos
+Epico: Gestión Empresarial
+
+
+HU16: Edición de la información de perfil del usuario
+Etiquetas:
+
+
+CONFIGURACIÓN (azul)
+
+
+PERFIL (naranja)
+
+
+USUARIO (verde)
+
+
+PRIORIDAD ALTA (amarillo)
+
+
+Descripción:
+Como usuario del CRM URBANY, quiero editar mi información de perfil (nombre completo, email, teléfono, tipo de usuario) para mantener mis datos actualizados y que sean visibles correctamente en las publicaciones de propiedades en los portales inmobiliarios.
+
+
+Criterios de Aceptación:
+
+
+✅ Poder acceder a la sección de "Mi Perfil" desde el menú de navegación.
+
+
+✅ Ver mis datos de perfil actuales en los campos de texto correspondientes.
+
+
+✅ Poder editar el "Nombre Completo", "Email", y "Teléfono".
+
+
+✅ Poder seleccionar el "Tipo de usuario" de una lista predefinida.
+
+
+✅ Tener un botón para "Guardar cambios".
+
+
+✅ Recibir una confirmación visual (un mensaje de éxito) cuando la información se haya guardado correctamente.
+
+
+✅ Que la imagen del perfil se muestre correctamente.
+
+
+✅ Que los cambios se reflejen de inmediato en la visualización del perfil.
+
+
+Checklist de Tareas:
+
+
+Desarrollar la interfaz de usuario para la sección "Mi Perfil".
+
+
+Implementar los campos de entrada para nombre, email, y teléfono.
+
+
+Crear la funcionalidad para el botón "Guardar cambios".
+
+
+Conectar el frontend con el backend para actualizar la información en la base de datos.
+
+
+Validar que los datos ingresados cumplan con el formato correcto (ej. email válido, teléfono numérico).
+
+
+Desarrollar la lógica para cargar la imagen de perfil del usuario.
+
+
+Implementar el sistema de mensajes de confirmación.
+
+
+Configuración de Automatización (Hipotética):
+
+
+No aplica directamente a esta historia, ya que se trata de una acción manual del usuario.
+
+
+Prioridad: Alta
+Estimación: 6 puntos
+Épico: Gestión de Usuarios y Perfiles
+
+
+HU17: Configuración centralizada de notificaciones del sistema
+
+
+Etiquetas:
+
+
+NOTIFICACIONES (azul)
+
+
+CONFIGURACIÓN (naranja)
+
+
+EMAIL (verde)
+
+
+ESCRITORIO (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como usuario del CRM quiero configurar centralizadamente todas mis preferencias de notificaciones, tanto de escritorio como por correo electrónico, para mantenerme informado sobre actividades importantes sin sufrir sobrecarga de información.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder al centro de notificaciones desde "Mi Perfil"
+
+
+✅ Configurar notificaciones de escritorio y email de forma independiente
+
+
+✅ Activar/desactivar notificaciones globales del sistema
+
+
+✅ Recibir notificaciones cuando se crea un nuevo negocio (escritorio + email)
+
+
+✅ Recibir notificaciones de nuevos mensajes de WhatsApp
+
+
+✅ Recibir notificaciones por email de actividades agendadas para el día actual
+
+
+✅ Recibir notificaciones de actualizaciones y novedades del CRM
+
+
+✅ Activar notificaciones de escritorio para recibir todas las novedades en tiempo real
+
+
+Checklist de Tareas:
+
+
+Desarrollar centro de notificaciones unificado
+
+
+Implementar sistema de preferencias de notificación por categoría
+
+
+Crear toggle switches para notificaciones de escritorio
+
+
+Desarrollar toggle switches para notificaciones por email
+
+
+Implementar notificaciones en tiempo real para nuevos negocios
+
+
+Crear sistema de notificaciones para mensajes de WhatsApp
+
+
+Desarrollar notificador de actividades diarias por email
+
+
+Implementar sistema de novedades y actualizaciones del CRM
+
+
+Crear recordatorio para activar notificaciones de escritorio
+
+
+Categorías de Notificación:
+
+
+Negocios: Creación de nuevos negocios (escritorio + email)
+
+
+WhatsApp: Recepción de nuevos mensajes
+
+
+Actividades: Recordatorio de actividades diarias (email)
+
+
+Novedades: Actualizaciones del sistema CRM
+
+
+Prioridad: Media
+Estimación: 10 puntos
+Epico: Seguridad y Perfil de Usuario
+
+
+HU18: Gestión y monitoreo de sesiones activas de seguridad
+
+
+Etiquetas:
+
+
+SEGURIDAD (rojo)
+
+
+SESIONES (azul)
+
+
+MONITOREO (naranja)
+
+
+DISPOSITIVOS (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como usuario del CRM quiero visualizar y gestionar todas mis sesiones activas en diferentes dispositivos para mantener el control de seguridad de mi cuenta y poder cerrar sesiones no autorizadas o sospechosas.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a la sección "Sesiones activas" desde "Mi Perfil"
+
+
+✅ Visualizar lista completa de dispositivos con sesiones activas
+
+
+✅ Identificar el navegador y sistema operativo de cada sesión (Edge en Windows 11)
+
+
+✅ Ver ID único de conexión con timestamp (UILConexionr.22/08/2025)
+
+
+✅ Cerrar sesiones individuales específicas
+
+
+✅ Cerrar todas las sesiones excepto la actual
+
+
+✅ Navegar entre páginas de sesiones si hay muchas conexiones
+
+
+✅ Detectar sesiones duplicadas o sospechosas automáticamente
+
+
+Checklist de Tareas:
+
+
+Desarrollar listado de sesiones activas con detalles técnicos
+
+
+Implementar identificación de navegador y SO por sesión
+
+
+Crear sistema de ID único de conexión con fecha
+
+
+Desarrollar funcionalidad "Cerrar sesión" individual
+
+
+Implementar funcionalidad "Cerrar todas las demás sesiones"
+
+
+Crear paginación para múltiples sesiones activas
+
+
+Desarrollar detector de sesiones duplicadas/sospechosas
+
+
+Implementar notificaciones de seguridad por nuevas sesiones
+
+
+Información por Sesión:
+
+
+Dispositivo: Edge en Windows 11
+
+
+ID de Conexión: UILConexionr.22/08/2025
+
+
+Estado: Activa
+
+
+Controles de Navegación:
+
+
+"Anterior" - Navegar a página previa
+
+
+"Siguiente" - Navegar a página siguiente
+
+
+Prioridad: Alta
+Estimación: 7 puntos
+Epico: Seguridad y Perfil de Usuario
+
+
+HU19: Gestión de información de perfil de usuario para portales inmobiliarios
+
+
+Etiquetas:
+
+
+PERFIL (azul)
+
+
+USUARIO (naranja)
+
+
+PORTALES (verde)
+
+
+INFORMACIÓN PÚBLICA (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar mi información de perfil personal que será visible en las publicaciones de propiedades en los portales, asegurando que mis datos de contacto sean precisos y profesionales para los potenciales clientes.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a la información de usuario desde el menú de perfil
+
+
+✅ Visualizar y editar nombre completo para publicaciones
+
+
+✅ Gestionar email de contacto visible en portales
+
+
+✅ Actualizar número de teléfono para contacto directo
+
+
+✅ Ver y configurar tipo de usuario (rol/permissions)
+
+
+✅ Entender que la información será pública en publicaciones de inmuebles
+
+
+✅ Mantener consistencia entre información del perfil y datos en portales
+
+
+✅ Previsualizar cómo se verá la información en las publicaciones
+
+
+Checklist de Tareas:
+
+
+Desarrollar formulario de información de usuario
+
+
+Implementar campos editables: nombre, email, teléfono
+
+
+Crear selector de tipo de usuario/rol
+
+
+Desarrollar sistema de sincronización con portales
+
+
+Implementar previsualización de datos en contexto de portal
+
+
+Crear validador de formato de datos de contacto
+
+
+Desarrollar guardado seguro de información de perfil
+
+
+Implementar notificación de cambios en información pública
+
+
+Campos de Información:
+
+
+Nombre Completo: Texto editable
+
+
+Email: Campo de email validado
+
+
+Teléfono: Formato telefónico internacional
+
+
+Tipo de usuario: Selector de rol/perfil
+
+
+Nota Importante: "Su información de usuario será visible en las publicaciones de sus inmuebles en los portales"
+
+
+Prioridad: Media
+Estimación: 6 puntos
+Epico: Seguridad y Perfil de Usuario
+
+
+HU20: Configuración completa de perfil de la inmobiliaria
+
+
+Etiquetas:
+
+
+PERFIL INMOBILIARIA (azul)
+
+
+CONFIGURACIÓN (naranja)
+
+
+MARCA (verde)
+
+
+CONTACTO (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como administrador de la inmobiliaria quiero configurar todos los datos corporativos de la empresa, incluyendo información de contacto, identidad visual y configuración de marca, para mantener una presencia profesional consistente en todas las plataformas y comunicaciones.
+
+
+Criterios de Aceptación:
+
+
+✅ Configurar nombre oficial de la inmobiliaria
+
+
+✅ Establecer email corporativo principal
+
+
+✅ Registrar teléfono fijo y celular de contacto
+
+
+✅ Configurar sitio web oficial de la inmobiliaria
+
+
+✅ Modificar ubicación física de la inmobiliaria
+
+
+✅ Gestionar redes sociales corporativas
+
+
+✅ Personalizar marca de agua para propiedades y documentos
+
+
+✅ Establecer código único de identificación de la inmobiliaria
+
+
+✅ Activar/desactivar modo oscuro del sistema
+
+
+✅ Guardar todos los cambios de configuración
+
+
+Checklist de Tareas:
+
+
+Desarrollar formulario de información básica (nombre, email, teléfono, celular, sitio web)
+
+
+Implementar editor de ubicación con mapa
+
+
+Crear gestor de redes sociales corporativas
+
+
+Desarrollar uploader de marca de agua personalizable
+
+
+Implementar generador de código único de inmobiliaria
+
+
+Crear toggle para modo oscuro/claro
+
+
+Desarrollar sistema de guardado de cambios
+
+
+Implementar previsualización de cambios en tiempo real
+
+
+Campos de Configuración:
+
+
+Información Básica: Nombre, Email, Teléfono, Celular, Sitio web
+
+
+Personalización: [ ] Modificar ubicación, [ ] Redes sociales, [ ] Modificar marca de agua, [ ] Modificar código
+
+
+Apariencia: Dark Mode toggle
+
+
+Botón de Acción: "Guardar cambios"
+
+
+Prioridad: Alta
+Estimación: 12 puntos
+Epico: Administración del Sistema
+
+
+HU21: Gestión de usuarios y roles del sistema
+
+
+Etiquetas:
+
+
+USUARIOS (azul)
+
+
+ROLES (naranja)
+
+
+ADMINISTRACIÓN (verde)
+
+
+INVITACIONES (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como administrador del CRM quiero gestionar todos los usuarios del sistema, asignar roles y permisos, e invitar nuevos usuarios para organizar el equipo de trabajo y controlar el acceso a las funcionalidades de la plataforma.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar lista completa de usuarios del sistema con sus datos
+
+
+✅ Ver información de usuario: nombre (pepe), email (2f@gmail.com), rol (Admin)
+
+
+✅ Asignar y modificar roles de usuario (Admin, Agente, etc.)
+
+
+✅ Realizar acciones sobre usuarios específicos (editar, eliminar, suspender)
+
+
+✅ Invitar nuevos usuarios al sistema mediante proceso de invitación
+
+
+✅ Navegar entre páginas de usuarios si la lista es extensa
+
+
+✅ Gestionar permisos específicos por rol de usuario
+
+
+✅ Verificar estado de actividad de cada usuario
+
+
+Checklist de Tareas:
+
+
+Desarrollar listado de usuarios con columnas: USUARIO, ROL, ACCIONES
+
+
+Implementar sistema de roles y permisos
+
+
+Crear funciones de administración por usuario (editar, eliminar)
+
+
+Desarrollar sistema de invitación de nuevos usuarios
+
+
+Implementar paginación para listas largas de usuarios
+
+
+Crear formulario de edición de roles y permisos
+
+
+Desarrollar sistema de notificaciones de invitación
+
+
+Implementar control de acceso basado en roles
+
+
+Estructura de Tabla:
+
+
+USUARIO: Nombre y email (pepe - 2f@gmail.com)
+
+
+ROL: Tipo de usuario (Admin)
+
+
+ACCIONES: Controles de administración
+
+
+Botón de Acción: "+ Invitar a un usuario"
+
+
+Navegación: "Anterior" - Para paginación de listas
+
+
+Prioridad: Alta
+Estimación: 14 puntos
+Epico: Administración del Sistema
+
+
+HU22: Panel de administración de usuarios y estructura del sistema
+
+
+Etiquetas:
+
+
+USUARIOS (azul)
+
+
+ADMINISTRACIÓN (naranja)
+
+
+ROLES (verde)
+
+
+INTERFAZ (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador del sistema quiero acceder a un panel centralizado de gestión de usuarios donde pueda visualizar la estructura completa del equipo, asignar roles y realizar acciones administrativas, manteniendo acceso rápido a todas las secciones del CRM.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a la sección "Gestión de Usuarios" desde el menú principal
+
+
+✅ Visualizar lista de usuarios con columnas: USUARIO, ROL, ACCIONES
+
+
+✅ Navegar entre el dashboard principal y la gestión de usuarios
+
+
+✅ Mantener acceso al menú completo del CRM durante la administración
+
+
+✅ Acceder a "Mi Perfil" con todas las opciones de configuración
+
+
+✅ Utilizar modo oscuro desde cualquier sección del sistema
+
+
+✅ Tener navegación consistente entre todas las áreas del CRM
+
+
+✅ Gestionar usuarios sin perder el contexto de otras funcionalidades
+
+
+Checklist de Tareas:
+
+
+Desarrollar interfaz de gestión de usuarios integrada
+
+
+Implementar tabla de usuarios con columnas: USUARIO, ROL, ACCIONES
+
+
+Crear navegación fluida entre dashboard y gestión de usuarios
+
+
+Desarrollar menú lateral con todas las secciones del CRM
+
+
+Implementar sección "Mi Perfil" con sub-opciones
+
+
+Crear toggle de modo oscuro persistente
+
+
+Desarrollar sistema de roles y permisos visual
+
+
+Implementar acciones administrativas por usuario
+
+
+Estructura de Interfaz:
+
+
+Header: Gestión de usuarios
+
+
+Contenido Principal: Tabla de usuarios (USUARIO, ROL, ACCIONES)
+
+
+Menú Lateral: Dashboard completo + Mi Perfil con submenú
+
+
+Navegación: Acceso a todas las secciones del CRM
+
+
+Menú de Navegación Completo:
+
+
+Dashboard, Actividades, Tasaciones, Propiedades, Negocios, Mensajes, Redes, Mapa, Emprendimientos, Contactos, Reportes, Enviar Comentarios, Configuración, Dark Mode
+
+
+Prioridad: Media
+Estimación: 10 puntos
+Epico: Administración del Sistema
+
+
+HU23: Actualización a licencia profesional para habilitar gestión multi-sucursal
+
+
+Etiquetas:
+
+
+LICENCIA (azul)
+
+
+SUCURSALES (naranja)
+
+
+UPGRADE (verde)
+
+
+ORGANIZACIÓN (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador de una inmobiliaria con múltiples ubicaciones quiero actualizar a la licencia profesional para desbloquear la funcionalidad de gestión de sucursales, permitiéndome organizar mejor la información asignando propiedades, negocios y contactos a sus sucursales correspondientes.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar opción de actualización a licencia profesional en el dashboard
+
+
+✅ Acceder a la descripción de beneficios de gestión de sucursales
+
+
+✅ Realizar el upgrade a licencia profesional desde el botón dedicado
+
+
+✅ Habilitar la sección "Gestión de Sucursales" en el menú de perfil después de la actualización
+
+
+✅ Asignar propiedades a sucursales específicas
+
+
+✅ Organizar negocios por sucursal correspondiente
+
+
+✅ Gestionar contactos asignados a cada sucursal
+
+
+✅ Mantener navegación completa al menú de perfil durante el proceso
+
+
+Checklist de Tareas:
+
+
+Desarrollar pantalla de promoción de licencia profesional
+
+
+Implementar descripción clara de beneficios de sucursales
+
+
+Crear proceso de upgrade a licencia profesional
+
+
+Desarrollar módulo de gestión de sucursales
+
+
+Implementar asignador de propiedades por sucursal
+
+
+Crear organizador de negocios por sucursal
+
+
+Desarrollar gestor de contactos multi-sucursal
+
+
+Implementar activación de funcionalidades post-upgrade
+
+
+Beneficios de Licencia Profesional:
+
+
+🏢 Organización: Mejor estructuración de información
+
+
+📍 Asignación: Propiedades, negocios y contactos por sucursal
+
+
+🎯 Segmentación: Datos organizados por ubicación física
+
+
+📊 Control: Gestión centralizada multi-sucursal
+
+
+Botón de Acción: "+ Actualiza a Licencia Profesional"
+
+
+Menú de Perfil Disponible:
+
+
+Perfil de la Inmobiliaria
+
+
+Integraciones
+
+
+Gestión de Usuarios
+
+
+Gestión de Sucursales (habilitado post-upgrade)
+
+
+Automatización
+
+
+Optimizaciones
+
+
+Sitio Web
+
+
+Blog
+
+
+Actualizar mi suscripción
+
+
+Invita y gana
+
+
+Ayuda
+
+
+Cerrar sesión
+
+
+Prioridad: Media
+Estimación: 16 puntos
+Epico: Gestión Empresarial
+
+
+HU24: Sistema de optimizaciones y corrección de propiedades para MercadoLibre
+
+
+Etiquetas:
+
+
+OPTIMIZACIÓN (azul)
+
+
+MERCEDOLIBRE (naranja)
+
+
+CORRECCIÓN (verde)
+
+
+PUBLICACIONES (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como usuario del CRM quiero acceder a un sistema de optimizaciones que me permita identificar y corregir propiedades, publicaciones y negocios que requieren atención, específicamente enfocado en la integración con MercadoLibre para mantener mis avisos actualizados y efectivos.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a la sección "Optimizaciones" desde el dashboard principal
+
+
+✅ Visualizar categorías de optimización disponibles (MercadoLibre)
+
+
+✅ Ver estado de avisos por corregir en MercadoLibre
+
+
+✅ Recibir confirmación cuando no hay avisos pendientes de republicar
+
+
+✅ Identificar propiedades que requieren corrección o actualización
+
+
+✅ Gestionar publicaciones que necesitan optimización
+
+
+✅ Revisar negocios que pueden mejorar su presentación
+
+
+✅ Continuar con otras tareas del día cuando no hay correcciones pendientes
+
+
+Checklist de Tareas:
+
+
+Desarrollar módulo de optimizaciones del CRM
+
+
+Implementar sistema de categorías de optimización
+
+
+Crear integración con MercadoLibre para detección de avisos
+
+
+Desarrollar detector de propiedades que requieren corrección
+
+
+Implementar sistema de alertas para publicaciones por optimizar
+
+
+Crear gestor de negocios que necesitan mejoras
+
+
+Desarrollar estado "Fantástico" cuando no hay correcciones pendientes
+
+
+Implementar mensajes motivacionales para continuar con tareas
+
+
+Estados de Optimización:
+
+
+✅ Óptimo: "Fantástico: No tienes avisos por republicar"
+
+
+✅ Continuidad: "Puedes continuar con tus tareas del día"
+
+
+⚠️ Pendiente: (Cuando hay avisos por corregir)
+
+
+Categorías Disponibles:
+
+
+MercadoLibre: Avisos y publicaciones en la plataforma
+
+
+Prioridad: Media
+Estimación: 9 puntos
+Epico: Optimizaciones del Sistema
+
+
+HU25: Gestión y seguimiento de proceso de tasaciones inmobiliarias
+
+
+Etiquetas:
+
+
+TASACIONES (azul)
+
+
+ESTADÍSTICAS (naranja)
+
+
+SEGUIMIENTO (verde)
+
+
+CONSULTAS (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar y dar seguimiento a todo el proceso de tasaciones, desde la consulta inicial hasta la tasación final, manteniendo un control centralizado de clientes, propiedades y fechas para optimizar mi flujo de trabajo.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar estadísticas del proceso de tasaciones: Nueva consulta, Visita programada, En tasación
+
+
+✅ Acceder a lista detallada de tasaciones con columnas: NOMBRE, CONTACTO, PROPIEDAD, FECHA
+
+
+✅ Filtrar tasaciones por agente asignado
+
+
+✅ Ver estado de tasaciones abiertas/pendientes
+
+
+✅ Utilizar etiquetas para categorizar tipos de tasación
+
+
+✅ Acceder a vista consolidada "Todos" las tasaciones
+
+
+✅ Recibir confirmación cuando no hay consultas pendientes
+
+
+✅ Continuar con otras tareas cuando el flujo de tasaciones está al día
+
+
+Checklist de Tareas:
+
+
+Desarrollar dashboard de estadísticas de tasaciones
+
+
+Implementar columnas: NOMBRE, CONTACTO, PROPIEDAD, FECHA
+
+
+Crear sistema de filtrado por agente
+
+
+Desarrollar indicador de tasaciones abiertas
+
+
+Implementar sistema de etiquetas para categorización
+
+
+Crear vista consolidada "Todos"
+
+
+Desarrollar estado "Fantástico" cuando no hay consultas pendientes
+
+
+Implementar mensaje de continuidad de tareas
+
+
+Estadísticas del Proceso:
+
+
+Nueva consulta: Solicitudes iniciales recibidas
+
+
+Visita programada: Tasaciones con visita agendada
+
+
+En tasación: Procesos activos de valuación
+
+
+Filtros de Análisis:
+
+
+Agente: Filtrar por responsable asignado
+
+
+Tasaciones abiertas: Ver solo pendientes
+
+
+Etiquetas: Categorías personalizables
+
+
+Todos: Vista completa sin filtros
+
+
+Estado Óptimo: "Fantástico: No hay consultas pendientes. Puedes continuar con tus tareas del día."
+
+
+Prioridad: Alta
+Estimación: 11 puntos
+Epico: Gestión de Tasaciones
+
+
+HU26: Gestión integral de propiedades con estados y portal multi-estado
+
+
+Etiquetas:
+
+
+PROPIEDADES (azul)
+
+
+GESTIÓN (naranja)
+
+
+ESTADOS (verde)
+
+
+PORTALES (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar todas las propiedades con un sistema multi-estado que me permita visualizar y filtrar por diferentes fases del ciclo de vida inmobiliario, manteniendo información completa sobre ubicación, calidad, tipo, precio y portales de publicación.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar propiedades organizadas por estados: Activas, Reservadas, Fuera de mercado, Vendidas, Alquiladas, En borrador
+
+
+✅ Acceder a tabla detallada con columnas: FOTO, DIRECCIÓN, CALIDAD, TIPO, PRECIO, PORTALES
+
+
+✅ Ver información completa de cada propiedad: dirección (Calle del Sol, 123, Ciudad), calidad (80), tipo (Apartamento), precio ($250,000), portal (Idealista)
+
+
+✅ Filtrar propiedades por estado actual en el mercado
+
+
+✅ Gestionar propiedades desde borrador hasta estado final (vendida/alquilada)
+
+
+✅ Acceder a modelo de "nueva propiedad" para agregar inmuebles
+
+
+✅ Navegar rápidamente entre secciones relacionadas: Negocios, Mensajes, Redes, etc.
+
+
+Checklist de Tareas:
+
+
+Desarrollar sistema de estados multi-fase para propiedades
+
+
+Implementar tabla con columnas: FOTO, DIRECCIÓN, CALIDAD, TIPO, PRECIO, PORTALES
+
+
+Crear tarjetas de propiedad con información completa
+
+
+Desarrollar filtros por estado: Activas, Reservadas, Fuera de mercado, Vendidas, Alquiladas, En borrador
+
+
+Implementar modelo/formulario de "nueva propiedad"
+
+
+Crear sistema de gestión de calidad de propiedades (indicador 80/100)
+
+
+Desarrollar integración con múltiples portales (Idealista)
+
+
+Implementar navegación rápida entre secciones relacionadas
+
+
+Estados de Propiedad:
+
+
+🟢 Activas: Disponibles en mercado
+
+
+🟡 Reservadas: Con reserva activa
+
+
+🔴 Fuera de mercado: No disponibles temporalmente
+
+
+✅ Vendidas: Proceso de venta completado
+
+
+🏠 Alquiladas: Proceso de alquiler completado
+
+
+📝 En borrador: Propiedades en preparación
+
+
+Información por Propiedad:
+
+
+FOTO: Imagen representativa
+
+
+DIRECCIÓN: Calle del Sol, 123, Ciudad
+
+
+CALIDAD: Indicador numérico (80/100)
+
+
+TIPO: Apartamento, Casa, etc.
+
+
+PRECIO: $250,000
+
+
+PORTALES: Idealista, etc.
+
+
+Prioridad: Alta
+Estimación: 18 puntos
+Epico: Gestión de Propiedades
+
+
+HU27: Gestión de pipeline de negocios con seguimiento multi-etapa
+
+
+Etiquetas:
+
+
+NEGOCIOS (azul)
+
+
+PIPELINE (naranja)
+
+
+SEGUIMIENTO (verde)
+
+
+VENTAS (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar todo el pipeline de negocios a través de un sistema de etapas que me permita dar seguimiento desde el contacto inicial hasta el cierre, manteniendo información completa de clientes, propiedades y fechas críticas.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar pipeline de negocios por etapas: Nuevo Negocio, Contactado, Visita Programada, En Negociación, Frío
+
+
+✅ Ver contadores de negocios por etapa (Nuevo Negocio: 1, otros: 0)
+
+
+✅ Buscar negocios por nombre, correo electrónico, teléfono y propiedad
+
+
+✅ Filtrar negocios por agente asignado
+
+
+✅ Acceder a vista de "Negocios Abiertos", "Etiquetas" y "Todos"
+
+
+✅ Ver lista detallada con columnas: Nombre, Contacto, Propiedad, Fecha
+
+
+✅ V... (Tiempo restante: 13 KB)quetas:
+
+
+AUTENTICACIÓN (azul)
+
+
+SEGURIDAD (rojo)
+
+
+LOGIN (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como usuario del CRM URBANY quiero poder autenticarme en el sistema mediante correo electrónico y contraseña para acceder de forma segura a todas las funcionalidades de gestión inmobiliaria.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a pantalla de inicio de sesión con branding "CRM URBANY"
+
+
+✅ Ingresar correo electrónico en campo designado (johndoe@example.com)
+
+
+✅ Introducir contraseña en campo seguro (con enmascaramiento)
+
+
+✅ Validar campos requeridos antes del envío del formulario
+
+
+✅ Recordar credenciales mediante opción "Recuérdame"
+
+
+✅ Recuperar contraseña en caso de olvido mediante enlace
+
+
+✅ Iniciar sesión mediante botón dedicado
+
+
+✅ Registrar nueva cuenta si no se tiene una existente
+
+
+✅ Visualizar información de copyright (© 2021 - 2025 All Rights Reserved)
+
+
+✅ Recibir mensajes de error claros en caso de credenciales inválidas
+
+
+Checklist de Tareas:
+
+
+Desarrollar pantalla de login con diseño de marca URBANY
+
+
+Implementar campo de correo electrónico con validación
+
+
+Crear campo de contraseña con enmascaramiento
+
+
+Desarrollar opción "Recuérdame" para persistencia de sesión
+
+
+Implementar enlace de recuperación de contraseña
+
+
+Crear botón de "Iniciar sesión" con validación
+
+
+Desarrollar enlace de registro para nuevos usuarios
+
+
+Implementar mensajes de error y éxito
+
+
+Crear footer con información de copyright
+
+
+Campos del Formulario:
+
+
+Correo electrónico: johndoe@example.com (campo requerido)
+
+
+Contraseña: ********* (campo seguro requerido)
+
+
+Checkbox: "Recuérdame"
+
+
+Enlace: "¿Olvidaste la contraseña?"
+
+
+Botones de Acción:
+
+
+Principal: "Iniciar sesión"
+
+
+Secundario: "No tienes una cuenta? Regístrate"
+
+
+Información Legal:
+
+
+© 2021 - 2025 All Rights Reserved
+
+
+Prioridad: Alta
+Estimación: 5 puntos
+Epico: Seguridad y Autenticación
+
+
+HU02: Registro inicial de inmobiliaria en CRM URBANY
+
+
+Etiquetas:
+
+
+REGISTRO (azul)
+
+
+ONBOARDING (naranja)
+
+
+INMOBILIARIA (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como administrador de una inmobiliaria quiero registrar mi empresa en el CRM URBANY proporcionando toda la información corporativa necesaria para comenzar a utilizar las herramientas de gestión de propiedades, contactos y negocios.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder al formulario de registro con mensaje de bienvenida motivador
+
+
+✅ Ingresar nombre oficial de la inmobiliaria (campo requerido)
+
+
+✅ Registrar teléfono corporativo de contacto
+
+
+✅ Proporcionar email institucional válido
+
+
+✅ Completar dirección completa con departamento/provincia
+
+
+✅ Especificar provincia y distrito de ubicación
+
+
+✅ Validar formato y completitud de todos los campos antes de continuar
+
+
+✅ Proceder al siguiente paso del onboarding mediante botón "Continuar"
+
+
+✅ Recibir confirmación visual de campos correctamente completados
+
+
+✅ Tener opción alternativa de registro mediante otros métodos ("O USA")
+
+
+Checklist de Tareas:
+
+
+Desarrollar formulario de registro de inmobiliaria
+
+
+Implementar campo "Nombre de su inmobiliaria" (texto)
+
+
+Crear campo "Teléfono" con validación numérica
+
+
+Desarrollar campo "Email" con validación de formato
+
+
+Implementar campos de dirección: "Dirección" y "Departamento"
+
+
+Crear campos geográficos: "Provincia" y "Distrito"
+
+
+Desarrollar validación en tiempo real de campos requeridos
+
+
+Implementar botón "Continuar" para siguiente paso
+
+
+Crear opciones de registro alternativo ("O USA")
+
+
+Campos del Formulario:
+
+
+Nombre de su inmobiliaria: +++++++++ (texto, requerido)
+
+
+Teléfono: +++++++++ (numérico, requerido)
+
+
+Email: +++++++++ (email válido, requerido)
+
+
+Dirección: +++++++++ (texto, requerido)
+
+
+Departamento: +++++++++ (texto, requerido)
+
+
+Provincia: +++++++++ (texto, requerido)
+
+
+Distrito: +++++++++ (texto, requerido)
+
+
+Mensaje de Bienvenida:
+"¡Nos alegramos verte aquí! Añade la información de tu inmobiliaria para comenzar a utilizar CRM urbany."
+
+
+Botón de Acción: "Continuar"
+
+
+Alternativa: "O USA" - Otros métodos de registro
+
+
+Prioridad: Alta
+Estimación: 8 puntos
+Epico: Onboarding de Clientes
+
+
+HU03: Registro de usuario individual en CRM URBANY
+
+
+Etiquetas:
+
+
+REGISTRO (azul)
+
+
+USUARIO (naranja)
+
+
+SEGURIDAD (verde)
+
+
+ONBOARDING (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como nuevo usuario quiero registrarme en el CRM URBANY proporcionando mi correo electrónico y creando una contraseña segura para comenzar a utilizar la plataforma de gestión inmobiliaria.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder al formulario de registro con branding "CRM URBANY"
+
+
+✅ Ingresar correo electrónico válido (johndoe@example.com)
+
+
+✅ Crear contraseña segura con enmascaramiento
+
+
+✅ Confirmar contraseña ingresándola por segunda vez
+
+
+✅ Validar que ambas contraseñas coincidan
+
+
+✅ Verificar formato válido de correo electrónico
+
+
+✅ Proceder al siguiente paso mediante botón "Continuar"
+
+
+✅ Recibir mensaje de bienvenida motivador
+
+
+✅ Tener opción de registro alternativo ("O USA")
+
+
+✅ Completar registro de forma intuitiva y segura
+
+
+Checklist de Tareas:
+
+
+Desarrollar formulario de registro de usuario individual
+
+
+Implementar campo "Correo electrónico" con validación
+
+
+Crear campo "Contraseña" con enmascaramiento y requisitos de seguridad
+
+
+Desarrollar campo "Confirmar contraseña" con validación de coincidencia
+
+
+Implementar mensaje de bienvenida atractivo
+
+
+Crear botón "Continuar" para siguiente paso del onboarding
+
+
+Desarrollar opciones de registro alternativo
+
+
+Implementar validación en tiempo real de campos
+
+
+Crear feedback visual de errores y éxitos
+
+
+Campos del Formulario:
+
+
+Correo electrónico: johndoe@example.com (validación de formato)
+
+
+Contraseña: *********** (mínimo 8 caracteres, enmascarado)
+
+
+Confirmar contraseña: *********** (debe coincidir con contraseña)
+
+
+Mensaje de Bienvenida:
+"¡Nos alegramos verte aquí! Añade la información de tu inmobiliaria para comenzar a utilizar CRM urbany."
+
+
+Botón de Acción: "Continuar"
+
+
+Alternativa: "O USA" - Otros métodos de registro/autorización
+
+
+Prioridad: Alta
+Estimación: 6 puntos
+Epico: Onboarding de Clientes
+
+
+HU04: Gestión de plantillas de email para respuestas automáticas a consultas
+
+
+Etiquetas:
+
+
+AUTOMATIZACIÓN (azul)
+
+
+EMAIL (naranja)
+
+
+PLANTILLAS (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero crear y gestionar plantillas de email personalizables para responder automáticamente a nuevas consultas de clientes, incluyendo información específica de propiedades y datos del contacto.
+
+
+Criterios de Aceptación:
+
+
+✅ Buscar plantillas existentes por nombre
+
+
+✅ Crear nueva plantilla de email para "Nueva consulta"
+
+
+✅ Utilizar variables dinámicas en plantillas: [Saludo inicial], [Nombre del contacto], [Origen de la consulta], [Enlace de la propiedad], [Bloque de propiedades similares], [Firma]
+
+
+✅ Previsualizar plantilla antes de guardar
+
+
+✅ Integrar plantilla con flujo de automatización de nuevas consultas
+
+
+✅ Mantener formato y estilo profesional en emails automáticos
+
+
+✅ Permitir edición y duplicación de plantillas existentes
+
+
+Checklist de Tareas:
+
+
+Desarrollar editor de plantillas de email WYSIWYG
+
+
+Implementar sistema de variables dinámicas
+
+
+Crear funcionalidad de búsqueda de plantillas
+
+
+Desarrollar previsualización en tiempo real
+
+
+Integrar con sistema de automatización de consultas
+
+
+Implementar guardado y gestión de plantillas
+
+
+Crear plantillas predefinidas para casos comunes
+
+
+Desarrollar sistema de variables personalizables
+
+
+Variables Dinámicas Requeridas:
+
+
+[Saludo inicial] - Saludo personalizado según horario
+
+
+[Nombre del contacto] - Nombre del cliente
+
+
+[Origen de la consulta] - Portal/web de origen
+
+
+[Enlace de la propiedad] - Link a propiedad consultada
+
+
+[Bloque de propiedades similares] - Recomendaciones automáticas
+
+
+[Firma] - Datos y contacto del agente
+
+
+Prioridad: Alta
+Estimación: 13 puntos
+Epico: Automatización de Procesos
+
+
+HU05: Configuración de automatización para notificación de nuevas propiedades
+
+
+Etiquetas:
+
+
+AUTOMATIZACIÓN (azul)
+
+
+EMAIL (naranja)
+
+
+PROPIEDADES (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero configurar una automatización que envíe automáticamente un email a clientes interesados cada vez que se añade una nueva propiedad, utilizando plantillas personalizables con seguimiento de engagement.
+
+
+Criterios de Aceptación:
+
+
+✅ Configurar trigger "al añadir nueva propiedad" para enviar emails
+
+
+✅ Seleccionar plantilla de email desde librería de plantillas
+
+
+✅ Habilitar/deshabilitar seguimiento de aperturas de emails
+
+
+✅ Habilitar/deshabilitar seguimiento de clics en enlaces del email
+
+
+✅ Activar/desactivar la automatización completa
+
+
+✅ Visualizar estado de automatizaciones activas en dashboard
+
+
+✅ Filtrar destinatarios por criterios de interés (ubicación, tipo de propiedad, precio)
+
+
+✅ Recibir confirmación de configuración exitosa
+
+
+Checklist de Tareas:
+
+
+Desarrollar interfaz de selección de triggers
+
+
+Implementar selector de plantillas de email
+
+
+Crear toggle para seguimiento de aperturas
+
+
+Crear toggle para seguimiento de clics
+
+
+Desarrollar botón "Activar automatización"
+
+
+Implementar sistema de filtrado de destinatarios
+
+
+Crear panel de estado de automatizaciones
+
+
+Desarrollar confirmación visual de activación
+
+
+Configuración de Seguimiento:
+
+
+Seguimiento de aperturas de email
+
+
+Seguimiento de clics en enlaces
+
+
+Reporte de engagement por automatización
+
+
+Prioridad: Alta
+Estimación: 8 puntos
+Epico: Automatización de Procesos
+
+
+HU06: Integración de correo electrónico profesional con el CRM
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+EMAIL (naranja)
+
+
+CONFIGURACIÓN (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como usuario de Uthany quiero integrar mi cuenta de correo electrónico profesional con el CRM para sincronizar comunicaciones, realizar seguimiento de emails y utilizar plantillas personalizables, mejorando mi eficiencia en la gestión de contactos y propiedades.
+
+
+Criterios de Aceptación:
+
+
+✅ Verificar configuración previa del sitio web antes de la integración
+
+
+✅ Sincronizar buzón de correo de Uthany con cuenta de email profesional
+
+
+✅ Configurar sistema de difusión de propiedades por email
+
+
+✅ Habilitar seguimiento de aperturas de correos electrónicos
+
+
+✅ Utilizar plantillas personalizables para ahorrar tiempo
+
+
+✅ Configurar firma de email personalizada con apariencia profesional
+
+
+✅ Compartir disponibilidad con compañeros de trabajo
+
+
+✅ Sincronización bidireccional de emails y contactos
+
+
+Checklist de Tareas:
+
+
+Desarrollar validador de configuración de sitio web
+
+
+Implementar conexión con proveedores de email (Gmail, Outlook, etc.)
+
+
+Crear sistema de sincronización de buzón de correo
+
+
+Desarrollar funcionalidad de seguimiento de aperturas
+
+
+Integrar con sistema de plantillas de email existente
+
+
+Implementar editor de firma de email profesional
+
+
+Crear sistema de compartir disponibilidad entre usuarios
+
+
+Desarrollar panel de control de integración de email
+
+
+Funcionalidades Clave:
+
+
+Sincronización de correos Uthany ↔ Email profesional
+
+
+Difusión masiva de propiedades por email
+
+
+Tracking de aperturas de emails
+
+
+Plantillas personalizables
+
+
+Firma profesional unificada
+
+
+Compartir disponibilidad con equipo
+
+
+Prioridad: Alta
+Estimación: 18 puntos
+Epico: Integraciones de Plataforma
+
+
+HU07: Integración con redes inmobiliarias para mayor alcance de propiedades
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+REDES INMOBILIARIAS (naranja)
+
+
+PROPIEDADES (verde)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como agente inmobiliario quiero integrar el CRM con redes inmobiliarias externas para obtener mayor alcance y concretar más negocios, pudiendo seleccionar en qué redes compartir mis propiedades y gestionar comisiones.
+
+
+Criterios de Aceptación:
+
+
+✅ Seleccionar redes inmobiliarias específicas para compartir propiedades
+
+
+✅ Compartir fichas de propiedades entre colegas de la red
+
+
+✅ Publicar fichas de otras propiedades con mis datos de contacto
+
+
+✅ Asignar comisiones personalizadas para cada propiedad
+
+
+✅ Gestionar propiedades en la red Urbany
+
+
+✅ Configurar acciones automáticas al cargar una nueva propiedad
+
+
+✅ Sincronizar actualizaciones de propiedades entre el CRM y las redes
+
+
+✅ Visualizar estadísticas de performance por red inmobiliaria
+
+
+Checklist de Tareas:
+
+
+Desarrollar selector de redes inmobiliarias disponibles
+
+
+Implementar sistema de compartición de fichas entre colegas
+
+
+Crear funcionalidad de publicación cruzada de propiedades
+
+
+Desarrollar configurador de comisiones por propiedad
+
+
+Implementar gestión de propiedades en red Urbany
+
+
+Crear reglas automáticas para nuevas propiedades
+
+
+Desarrollar sincronización bidireccional de datos
+
+
+Implementar dashboard de analytics por red
+
+
+Configuración de Redes:
+
+
+Selección de redes destino para cada propiedad
+
+
+Configuración de comisiones específicas
+
+
+Reglas de publicación automática
+
+
+Compartición controlada con colegas
+
+
+Prioridad: Media
+Estimación: 15 puntos
+Epico: Integraciones de Plataforma
+
+
+HU08: Gestión de invitaciones y creación de redes inmobiliarias
+
+
+Etiquetas:
+
+
+REDES INMOBILIARIAS (azul)
+
+
+COLABORACIÓN (naranja)
+
+
+INVITACIONES (verde)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar invitaciones a redes existentes y tener la capacidad de crear mis propias redes para invitar colegas, facilitando la colaboración y el intercambio de propiedades dentro del ecosistema inmobiliario.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar estado de invitaciones recibidas (vacío o pendientes)
+
+
+✅ Crear nueva red inmobiliaria personalizada
+
+
+✅ Invitar colegas a unirse a mi red creada
+
+
+✅ Gestionar invitaciones enviadas (aceptar/rechazar/cancelar)
+
+
+✅ Configurar permisos y roles dentro de la red
+
+
+✅ Establecer reglas de compartición de propiedades en la red
+
+
+✅ Recibir notificaciones de nuevas invitaciones
+
+
+✅ Visualizar lista de redes a las que pertenezco
+
+
+Checklist de Tareas:
+
+
+Desarrollar pantalla de estado de invitaciones
+
+
+Implementar creador de redes inmobiliarias
+
+
+Crear sistema de envío de invitaciones a colegas
+
+
+Desarrollar gestor de invitaciones pendientes
+
+
+Implementar sistema de roles y permisos
+
+
+Crear configurador de reglas de compartición
+
+
+Desarrollar sistema de notificaciones
+
+
+Implementar lista de redes del usuario
+
+
+Estados de Invitación:
+
+
+"Aún no has recibido invitaciones" (estado inicial)
+
+
+Invitaciones pendientes de respuesta
+
+
+Invitaciones enviadas pendientes
+
+
+Redes activas del usuario
+
+
+Prioridad: Media
+Estimación: 12 puntos
+Epico: Redes Inmobiliarias
+
+
+HU09: Integración con plataformas de email marketing para campañas automatizadas
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+EMAIL MARKETING (naranja)
+
+
+MYPRINT (verde)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como agente inmobiliario quiero integrar el CRM con plataformas de email marketing como MyPrint para gestionar campañas automatizadas de propiedades y definir acciones específicas al cargar nuevas propiedades en el sistema.
+
+
+Criterios de Aceptación:
+
+
+✅ Integrar con plataforma MyPrint de email marketing
+
+
+✅ Configurar acciones automáticas al cargar nuevas propiedades
+
+
+✅ Sincronizar base de contactos entre CRM y plataforma de email marketing
+
+
+✅ Crear campañas segmentadas basadas en preferencias de clientes
+
+
+✅ Automatizar envíos masivos de propiedades a listas de contactos
+
+
+✅ Seguir métricas de engagement de campañas de email marketing
+
+
+✅ Gestionar plantillas de email marketing desde el CRM
+
+
+✅ Sincronizar propiedades y sus datos con campañas automáticas
+
+
+Checklist de Tareas:
+
+
+Desarrollar conexión API con MyPrint
+
+
+Implementar configuración de acciones para nuevas propiedades
+
+
+Crear sincronización bidireccional de contactos
+
+
+Desarrollar segmentador de audiencias para campañas
+
+
+Implementar sistema de envíos masivos automatizados
+
+
+Crear dashboard de métricas de campañas
+
+
+Integrar con editor de plantillas de email
+
+
+Desarrollar sincronización de datos de propiedades
+
+
+Configuración de Automatización:
+
+
+Definir acciones al cargar nueva propiedad
+
+
+Seleccionar listas de contactos destino
+
+
+Configurar timing de envíos automáticos
+
+
+Establecer criterios de segmentación
+
+
+Prioridad: Media
+Estimación: 14 puntos
+Epico: Integraciones de Plataforma
+
+
+HU10: Configuración de integración con MyPerfit para Email Marketing
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+EMAIL MARKETING (naranja)
+
+
+MYPERFIT (verde)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador del CRM URBANY, quiero configurar la integración con la plataforma de email marketing MyPerfit, ingresando el API Key y los datos de la cuenta, para sincronizar contactos y crear listas de manera efectiva.
+
+
+Criterios de Aceptación:
+
+
+✅ Poder seleccionar "Email marketing" dentro de las categorías de integración.
+
+
+✅ Visualizar los campos de entrada para "API Key" y "Cuenta" específicos de MyPerfit.
+
+
+✅ Poder introducir el API Key y los detalles de la cuenta de MyPerfit.
+
+
+✅ Que el botón "Guardar Configuración" esté habilitado una vez que se hayan introducido los datos requeridos.
+
+
+✅ Recibir una confirmación visual de que la configuración ha sido guardada exitosamente.
+
+
+✅ Que el sistema valide los datos introducidos (API Key y Cuenta) con MyPerfit al guardar.
+
+
+Checklist de Tareas:
+
+
+Habilitar la sección de "Email marketing" en el menú de integraciones.
+
+
+Desarrollar los campos de entrada para "API Key" y "Cuenta" de MyPerfit.
+
+
+Implementar la lógica para el botón "Guardar Configuración".
+
+
+Desarrollar la conexión backend para guardar las credenciales en la base de datos.
+
+
+Crear la validación de credenciales con la API de MyPerfit.
+
+
+Desarrollar un mensaje de éxito/error después de guardar.
+
+
+Configuración de Automatización (Hipotética, ya que la imagen no muestra detalles de automatización en esta sección, pero es común en estas integraciones):
+
+
+(Hipotético) Sincronización automática de contactos: Definir frecuencia de sincronización (ej. cada 24h, en tiempo real).
+
+
+(Hipotético) Mapeo de campos: Permitir al usuario mapear campos de contactos entre CRM y MyPerfit.
+
+
+(Hipotético) Creación de listas automáticas: Opción para crear nuevas listas en MyPerfit basadas en criterios del CRM.
+
+
+Prioridad: Media
+Estimación: 8 puntos
+Épico: Integraciones de Plataforma
+
+
+HU11: Integración de redes sociales - Instagram Business y WhatsApp Business
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+INSTAGRAM (rosa)
+
+
+WHATSAPP (verde)
+
+
+FACEBOOK (azul claro)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como inmobiliaria quiero integrar nuestras cuentas de Instagram Business y WhatsApp Business con el CRM para centralizar todas las comunicaciones y publicaciones, mejorando la gestión de redes sociales y conversaciones con clientes.
+
+
+Criterios de Aceptación:
+
+
+✅ Integrar cuenta de Instagram Business vinculada a Facebook Business
+
+
+✅ Publicar propiedades directamente desde el CRM a Instagram
+
+
+✅ Conectar cuenta de la inmobiliaria con Facebook Business
+
+
+✅ Conectar cuentas individuales de agentes con Facebook
+
+
+✅ Integrar WhatsApp Business API para todo el equipo
+
+
+✅ Centralizar conversaciones de WhatsApp en el CRM
+
+
+✅ Ofrecer integración alternativa vía QR para WhatsApp personal
+
+
+✅ Guiar al usuario en el proceso de vinculación Facebook-Instagram
+
+
+✅ Proporcionar políticas de privacidad claras
+
+
+Checklist de Tareas:
+
+
+Desarrollar integración con Instagram Business API
+
+
+Implementar publicador de propiedades a Instagram
+
+
+Crear conexión con Facebook Business Manager
+
+
+Desarrollar sistema multi-agente para conexiones Facebook
+
+
+Implementar WhatsApp Business API oficial
+
+
+Crear centralizador de conversaciones de WhatsApp
+
+
+Desarrollar integración alternativa WhatsApp vía QR
+
+
+Implementar guías paso a paso para configuración
+
+
+Crear documentación de políticas de privacidad
+
+
+Flujos de Integración:
+Instagram: Facebook Business → Instagram Business → CRM
+WhatsApp Oficial: Facebook Business → WhatsApp Business API → CRM
+WhatsApp Alternativo: Escanear QR → Sincronizar conversaciones → CRM
+
+
+Prioridad: Alta
+Estimación: 24 puntos
+Epico: Integraciones de Redes Sociales
+
+
+HU12: Configuración de integraciones oficiales y alternativas para redes sociales
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+INSTAGRAM (rosa)
+
+
+WHATSAPP BUSINESS (verde)
+
+
+API OFICIAL (naranja)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como usuario del CRM quiero configurar integraciones tanto oficiales como alternativas con Instagram Business y WhatsApp para publicar propiedades y centralizar conversaciones, teniendo opciones flexibles según las capacidades de mi negocio.
+
+
+Criterios de Aceptación:
+
+
+✅ Integrar cuenta de Instagram Business para publicar a través del CRM
+
+
+✅ Configurar WhatsApp Business API mediante cuenta de Facebook Business
+
+
+✅ Conectar todo el equipo a un número único de WhatsApp Business
+
+
+✅ Centralizar todas las conversaciones de WhatsApp en el CRM vía API oficial
+
+
+✅ Ofrecer integración alternativa WhatsApp escaneando código QR
+
+
+✅ Sincronizar conversaciones de WhatsApp personal con el CRM
+
+
+✅ Mantener separación clara entre integraciones oficiales y alternativas
+
+
+✅ Guiar al usuario en la selección del tipo de integración según sus necesidades
+
+
+Checklist de Tareas:
+
+
+Desarrollar conexión con Instagram Business API
+
+
+Implementar publicador de propiedades en Instagram
+
+
+Crear integración con WhatsApp Business API oficial
+
+
+Desarrollar sistema de número compartido para equipo
+
+
+Implementar centralizador de conversaciones WhatsApp
+
+
+Crear integración alternativa WhatsApp vía QR
+
+
+Desarrollar escáner de código QR para sincronización
+
+
+Implementar selector de tipo de integración
+
+
+Crear documentación comparativa de opciones
+
+
+Opciones de Integración:
+
+
+Oficiales: Instagram Business + WhatsApp Business API (más completo)
+
+
+Alternativa: WhatsApp personal vía QR (más sencillo)
+
+
+Prioridad: Alta
+Estimación: 18 puntos
+Epico: Integraciones de Redes Sociales
+
+
+HU13: Integración con portales inmobiliarios para publicación y gestión de propiedades
+
+
+Etiquetas:
+
+
+INTEGRACIÓN (azul)
+
+
+PORTALES (naranja)
+
+
+PROPIEDADES (verde)
+
+
+PUBLICACIÓN (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero integrar el CRM con múltiples portales inmobiliarios para publicar, editar y eliminar propiedades de manera centralizada, sincronizando automáticamente las consultas de clientes desde todos los portales.
+
+
+Criterios de Aceptación:
+
+
+✅ Integrar con portales personalizados: MercadoLibre, InmoUP, Página Web Zolics, Inmoclick, Broklan
+
+
+✅ Integrar con portales pagos: Proppit
+
+
+✅ Publicar propiedades en múltiples portales simultáneamente
+
+
+✅ Editar propiedades sincronizando cambios en todos los portales conectados
+
+
+✅ Eliminar propiedades de los portales desde el CRM
+
+
+✅ Sincronizar consultas de clientes desde portales al CRM
+
+
+✅ Gestionar credenciales de cuenta existente o crear nueva cuenta en Proppit
+
+
+✅ Validar formato de email para creación de cuentas en portales
+
+
+Checklist de Tareas:
+
+
+Desarrollar integración con API de MercadoLibre
+
+
+Implementar conexión con InmoUP
+
+
+Crear integración con páginas web Zolics
+
+
+Desarrollar conexión con Inmoclick
+
+
+Implementar integración con Broklan
+
+
+Crear conexión con Proppit (portal pago)
+
+
+Desarrollar publicador multi-portal simultáneo
+
+
+Implementar sincronizador bidireccional de propiedades
+
+
+Crear gestor de credenciales y cuentas de portales
+
+
+Configuración de Portales:
+
+
+Portales existentes: Ingresar email de cuenta creada
+
+
+Portales nuevos: Ingresar email para creación automática de cuenta
+
+
+Campo Requerido: Correo electrónico (example@gmail.com)
+
+
+Prioridad: Alta
+Estimación: 28 puntos
+Epico: Integraciones con Portales
+
+
+HU14: Gestión centralizada del perfil de la inmobiliaria y configuración del sistema
+
+
+Etiquetas:
+
+
+PERFIL (azul)
+
+
+CONFIGURACIÓN (naranja)
+
+
+GESTIÓN (verde)
+
+
+ADMINISTRACIÓN (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador de la inmobiliaria quiero gestionar centralizadamente toda la configuración del sistema, usuarios, sucursales e integraciones desde un menú unificado para mantener el control completo de la plataforma.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder al perfil completo de la inmobiliaria desde el dashboard principal
+
+
+✅ Gestionar todas las integraciones del sistema desde un menú centralizado
+
+
+✅ Administrar usuarios y permisos del equipo
+
+
+✅ Configurar y gestionar múltiples sucursales de la inmobiliaria
+
+
+✅ Gestionar automatizaciones de procesos desde sección dedicada
+
+
+✅ Configurar optimizaciones del sistema y rendimiento
+
+
+✅ Administrar sitio web y blog de la inmobiliaria
+
+
+✅ Gestionar suscripción y plan de servicio
+
+
+✅ Utilizar sistema de referidos "Invita y gana"
+
+
+✅ Acceder a centro de ayuda y soporte
+
+
+✅ Visualizar notificación de 150 mensajes pendientes en el menú principal
+
+
+Checklist de Tareas:
+
+
+Desarrollar panel de perfil de inmobiliaria
+
+
+Crear gestor centralizado de integraciones
+
+
+Implementar sistema de gestión de usuarios y roles
+
+
+Desarrollar administrador de sucursales múltiples
+
+
+Crear panel de automatizaciones del sistema
+
+
+Implementar configurador de optimizaciones
+
+
+Desarrollar gestor de sitio web y blog
+
+
+Crear sistema de gestión de suscripciones
+
+
+Implementar programa de referidos "Invita y gana"
+
+
+Desarrollar centro de ayuda integrado
+
+
+Mostrar notificaciones de mensajes pendientes
+
+
+Secciones de Configuración:
+
+
+Perfil: Configuración básica de la inmobiliaria
+
+
+Integraciones: Conexiones con terceros
+
+
+Usuarios: Gestión del equipo
+
+
+Sucursales: Administración multi-locación
+
+
+Automatización: Flujos de trabajo
+
+
+Optimizaciones: Mejoras de rendimiento
+
+
+Sitio Web + Blog: Presencia online
+
+
+Suscripción: Gestión de planes
+
+
+Referidos: Programa de incentivos
+
+
+Prioridad: Media
+Estimación: 22 puntos
+Epico: Administración del Sistema
+
+
+HU15: Actualización a Licencia Profesional para gestión multi-sucursal
+
+
+Etiquetas:
+
+
+LICENCIA (azul)
+
+
+SUCURSALES (naranja)
+
+
+UPGRADE (verde)
+
+
+ORGANIZACIÓN (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador de una inmobiliaria con múltiples ubicaciones quiero actualizar a la Licencia Profesional para habilitar la gestión de sucursales y organizar mejor la información asignando propiedades, negocios y contactos a sus sucursales correspondientes.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a información sobre beneficios de Licencia Profesional
+
+
+✅ Visualizar descripción clara de funcionalidades de gestión de sucursales
+
+
+✅ Realizar upgrade a Licencia Profesional desde el dashboard
+
+
+✅ Habilitar módulo de gestión multi-sucursal después de la actualización
+
+
+✅ Asignar propiedades a sucursales específicas
+
+
+✅ Asignar negocios a sucursales correspondientes
+
+
+✅ Organizar contactos por sucursal
+
+
+✅ Mantener separación de información entre sucursales
+
+
+✅ Generar reportes por sucursal individual o consolidados
+
+
+Checklist de Tareas:
+
+
+Desarrollar pantalla informativa de Licencia Profesional
+
+
+Implementar descripción de beneficios de multi-sucursal
+
+
+Crear proceso de upgrade a Licencia Profesional
+
+
+Desarrollar módulo de gestión de sucursales
+
+
+Implementar asignador de propiedades a sucursales
+
+
+Crear asignador de negocios a sucursales
+
+
+Desarrollar organizador de contactos por sucursal
+
+
+Implementar separación de datos entre sucursales
+
+
+Crear sistema de reportes multi-sucursal
+
+
+Beneficios de Licencia Profesional:
+
+
+✅ Organización mejorada de información
+
+
+✅ Asignación de propiedades por sucursal
+
+
+✅ Asignación de negocios por sucursal
+
+
+✅ Organización de contactos por sucursal
+
+
+✅ Gestión centralizada multi-ubicación
+
+
+Botón de Acción: "+ Actualiza a Licencia Profesional"
+
+
+Prioridad: Media
+Estimación: 15 puntos
+Epico: Gestión Empresarial
+
+
+HU16: Edición de la información de perfil del usuario
+Etiquetas:
+
+
+CONFIGURACIÓN (azul)
+
+
+PERFIL (naranja)
+
+
+USUARIO (verde)
+
+
+PRIORIDAD ALTA (amarillo)
+
+
+Descripción:
+Como usuario del CRM URBANY, quiero editar mi información de perfil (nombre completo, email, teléfono, tipo de usuario) para mantener mis datos actualizados y que sean visibles correctamente en las publicaciones de propiedades en los portales inmobiliarios.
+
+
+Criterios de Aceptación:
+
+
+✅ Poder acceder a la sección de "Mi Perfil" desde el menú de navegación.
+
+
+✅ Ver mis datos de perfil actuales en los campos de texto correspondientes.
+
+
+✅ Poder editar el "Nombre Completo", "Email", y "Teléfono".
+
+
+✅ Poder seleccionar el "Tipo de usuario" de una lista predefinida.
+
+
+✅ Tener un botón para "Guardar cambios".
+
+
+✅ Recibir una confirmación visual (un mensaje de éxito) cuando la información se haya guardado correctamente.
+
+
+✅ Que la imagen del perfil se muestre correctamente.
+
+
+✅ Que los cambios se reflejen de inmediato en la visualización del perfil.
+
+
+Checklist de Tareas:
+
+
+Desarrollar la interfaz de usuario para la sección "Mi Perfil".
+
+
+Implementar los campos de entrada para nombre, email, y teléfono.
+
+
+Crear la funcionalidad para el botón "Guardar cambios".
+
+
+Conectar el frontend con el backend para actualizar la información en la base de datos.
+
+
+Validar que los datos ingresados cumplan con el formato correcto (ej. email válido, teléfono numérico).
+
+
+Desarrollar la lógica para cargar la imagen de perfil del usuario.
+
+
+Implementar el sistema de mensajes de confirmación.
+
+
+Configuración de Automatización (Hipotética):
+
+
+No aplica directamente a esta historia, ya que se trata de una acción manual del usuario.
+
+
+Prioridad: Alta
+Estimación: 6 puntos
+Épico: Gestión de Usuarios y Perfiles
+
+
+HU17: Configuración centralizada de notificaciones del sistema
+
+
+Etiquetas:
+
+
+NOTIFICACIONES (azul)
+
+
+CONFIGURACIÓN (naranja)
+
+
+EMAIL (verde)
+
+
+ESCRITORIO (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como usuario del CRM quiero configurar centralizadamente todas mis preferencias de notificaciones, tanto de escritorio como por correo electrónico, para mantenerme informado sobre actividades importantes sin sufrir sobrecarga de información.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder al centro de notificaciones desde "Mi Perfil"
+
+
+✅ Configurar notificaciones de escritorio y email de forma independiente
+
+
+✅ Activar/desactivar notificaciones globales del sistema
+
+
+✅ Recibir notificaciones cuando se crea un nuevo negocio (escritorio + email)
+
+
+✅ Recibir notificaciones de nuevos mensajes de WhatsApp
+
+
+✅ Recibir notificaciones por email de actividades agendadas para el día actual
+
+
+✅ Recibir notificaciones de actualizaciones y novedades del CRM
+
+
+✅ Activar notificaciones de escritorio para recibir todas las novedades en tiempo real
+
+
+Checklist de Tareas:
+
+
+Desarrollar centro de notificaciones unificado
+
+
+Implementar sistema de preferencias de notificación por categoría
+
+
+Crear toggle switches para notificaciones de escritorio
+
+
+Desarrollar toggle switches para notificaciones por email
+
+
+Implementar notificaciones en tiempo real para nuevos negocios
+
+
+Crear sistema de notificaciones para mensajes de WhatsApp
+
+
+Desarrollar notificador de actividades diarias por email
+
+
+Implementar sistema de novedades y actualizaciones del CRM
+
+
+Crear recordatorio para activar notificaciones de escritorio
+
+
+Categorías de Notificación:
+
+
+Negocios: Creación de nuevos negocios (escritorio + email)
+
+
+WhatsApp: Recepción de nuevos mensajes
+
+
+Actividades: Recordatorio de actividades diarias (email)
+
+
+Novedades: Actualizaciones del sistema CRM
+
+
+Prioridad: Media
+Estimación: 10 puntos
+Epico: Seguridad y Perfil de Usuario
+
+
+HU18: Gestión y monitoreo de sesiones activas de seguridad
+
+
+Etiquetas:
+
+
+SEGURIDAD (rojo)
+
+
+SESIONES (azul)
+
+
+MONITOREO (naranja)
+
+
+DISPOSITIVOS (verde)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como usuario del CRM quiero visualizar y gestionar todas mis sesiones activas en diferentes dispositivos para mantener el control de seguridad de mi cuenta y poder cerrar sesiones no autorizadas o sospechosas.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a la sección "Sesiones activas" desde "Mi Perfil"
+
+
+✅ Visualizar lista completa de dispositivos con sesiones activas
+
+
+✅ Identificar el navegador y sistema operativo de cada sesión (Edge en Windows 11)
+
+
+✅ Ver ID único de conexión con timestamp (UILConexionr.22/08/2025)
+
+
+✅ Cerrar sesiones individuales específicas
+
+
+✅ Cerrar todas las sesiones excepto la actual
+
+
+✅ Navegar entre páginas de sesiones si hay muchas conexiones
+
+
+✅ Detectar sesiones duplicadas o sospechosas automáticamente
+
+
+Checklist de Tareas:
+
+
+Desarrollar listado de sesiones activas con detalles técnicos
+
+
+Implementar identificación de navegador y SO por sesión
+
+
+Crear sistema de ID único de conexión con fecha
+
+
+Desarrollar funcionalidad "Cerrar sesión" individual
+
+
+Implementar funcionalidad "Cerrar todas las demás sesiones"
+
+
+Crear paginación para múltiples sesiones activas
+
+
+Desarrollar detector de sesiones duplicadas/sospechosas
+
+
+Implementar notificaciones de seguridad por nuevas sesiones
+
+
+Información por Sesión:
+
+
+Dispositivo: Edge en Windows 11
+
+
+ID de Conexión: UILConexionr.22/08/2025
+
+
+Estado: Activa
+
+
+Controles de Navegación:
+
+
+"Anterior" - Navegar a página previa
+
+
+"Siguiente" - Navegar a página siguiente
+
+
+Prioridad: Alta
+Estimación: 7 puntos
+Epico: Seguridad y Perfil de Usuario
+
+
+HU19: Gestión de información de perfil de usuario para portales inmobiliarios
+
+
+Etiquetas:
+
+
+PERFIL (azul)
+
+
+USUARIO (naranja)
+
+
+PORTALES (verde)
+
+
+INFORMACIÓN PÚBLICA (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar mi información de perfil personal que será visible en las publicaciones de propiedades en los portales, asegurando que mis datos de contacto sean precisos y profesionales para los potenciales clientes.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a la información de usuario desde el menú de perfil
+
+
+✅ Visualizar y editar nombre completo para publicaciones
+
+
+✅ Gestionar email de contacto visible en portales
+
+
+✅ Actualizar número de teléfono para contacto directo
+
+
+✅ Ver y configurar tipo de usuario (rol/permissions)
+
+
+✅ Entender que la información será pública en publicaciones de inmuebles
+
+
+✅ Mantener consistencia entre información del perfil y datos en portales
+
+
+✅ Previsualizar cómo se verá la información en las publicaciones
+
+
+Checklist de Tareas:
+
+
+Desarrollar formulario de información de usuario
+
+
+Implementar campos editables: nombre, email, teléfono
+
+
+Crear selector de tipo de usuario/rol
+
+
+Desarrollar sistema de sincronización con portales
+
+
+Implementar previsualización de datos en contexto de portal
+
+
+Crear validador de formato de datos de contacto
+
+
+Desarrollar guardado seguro de información de perfil
+
+
+Implementar notificación de cambios en información pública
+
+
+Campos de Información:
+
+
+Nombre Completo: Texto editable
+
+
+Email: Campo de email validado
+
+
+Teléfono: Formato telefónico internacional
+
+
+Tipo de usuario: Selector de rol/perfil
+
+
+Nota Importante: "Su información de usuario será visible en las publicaciones de sus inmuebles en los portales"
+
+
+Prioridad: Media
+Estimación: 6 puntos
+Epico: Seguridad y Perfil de Usuario
+
+
+HU20: Configuración completa de perfil de la inmobiliaria
+
+
+Etiquetas:
+
+
+PERFIL INMOBILIARIA (azul)
+
+
+CONFIGURACIÓN (naranja)
+
+
+MARCA (verde)
+
+
+CONTACTO (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como administrador de la inmobiliaria quiero configurar todos los datos corporativos de la empresa, incluyendo información de contacto, identidad visual y configuración de marca, para mantener una presencia profesional consistente en todas las plataformas y comunicaciones.
+
+
+Criterios de Aceptación:
+
+
+✅ Configurar nombre oficial de la inmobiliaria
+
+
+✅ Establecer email corporativo principal
+
+
+✅ Registrar teléfono fijo y celular de contacto
+
+
+✅ Configurar sitio web oficial de la inmobiliaria
+
+
+✅ Modificar ubicación física de la inmobiliaria
+
+
+✅ Gestionar redes sociales corporativas
+
+
+✅ Personalizar marca de agua para propiedades y documentos
+
+
+✅ Establecer código único de identificación de la inmobiliaria
+
+
+✅ Activar/desactivar modo oscuro del sistema
+
+
+✅ Guardar todos los cambios de configuración
+
+
+Checklist de Tareas:
+
+
+Desarrollar formulario de información básica (nombre, email, teléfono, celular, sitio web)
+
+
+Implementar editor de ubicación con mapa
+
+
+Crear gestor de redes sociales corporativas
+
+
+Desarrollar uploader de marca de agua personalizable
+
+
+Implementar generador de código único de inmobiliaria
+
+
+Crear toggle para modo oscuro/claro
+
+
+Desarrollar sistema de guardado de cambios
+
+
+Implementar previsualización de cambios en tiempo real
+
+
+Campos de Configuración:
+
+
+Información Básica: Nombre, Email, Teléfono, Celular, Sitio web
+
+
+Personalización: [ ] Modificar ubicación, [ ] Redes sociales, [ ] Modificar marca de agua, [ ] Modificar código
+
+
+Apariencia: Dark Mode toggle
+
+
+Botón de Acción: "Guardar cambios"
+
+
+Prioridad: Alta
+Estimación: 12 puntos
+Epico: Administración del Sistema
+
+
+HU21: Gestión de usuarios y roles del sistema
+
+
+Etiquetas:
+
+
+USUARIOS (azul)
+
+
+ROLES (naranja)
+
+
+ADMINISTRACIÓN (verde)
+
+
+INVITACIONES (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como administrador del CRM quiero gestionar todos los usuarios del sistema, asignar roles y permisos, e invitar nuevos usuarios para organizar el equipo de trabajo y controlar el acceso a las funcionalidades de la plataforma.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar lista completa de usuarios del sistema con sus datos
+
+
+✅ Ver información de usuario: nombre (pepe), email (2f@gmail.com), rol (Admin)
+
+
+✅ Asignar y modificar roles de usuario (Admin, Agente, etc.)
+
+
+✅ Realizar acciones sobre usuarios específicos (editar, eliminar, suspender)
+
+
+✅ Invitar nuevos usuarios al sistema mediante proceso de invitación
+
+
+✅ Navegar entre páginas de usuarios si la lista es extensa
+
+
+✅ Gestionar permisos específicos por rol de usuario
+
+
+✅ Verificar estado de actividad de cada usuario
+
+
+Checklist de Tareas:
+
+
+Desarrollar listado de usuarios con columnas: USUARIO, ROL, ACCIONES
+
+
+Implementar sistema de roles y permisos
+
+
+Crear funciones de administración por usuario (editar, eliminar)
+
+
+Desarrollar sistema de invitación de nuevos usuarios
+
+
+Implementar paginación para listas largas de usuarios
+
+
+Crear formulario de edición de roles y permisos
+
+
+Desarrollar sistema de notificaciones de invitación
+
+
+Implementar control de acceso basado en roles
+
+
+Estructura de Tabla:
+
+
+USUARIO: Nombre y email (pepe - 2f@gmail.com)
+
+
+ROL: Tipo de usuario (Admin)
+
+
+ACCIONES: Controles de administración
+
+
+Botón de Acción: "+ Invitar a un usuario"
+
+
+Navegación: "Anterior" - Para paginación de listas
+
+
+Prioridad: Alta
+Estimación: 14 puntos
+Epico: Administración del Sistema
+
+
+HU22: Panel de administración de usuarios y estructura del sistema
+
+
+Etiquetas:
+
+
+USUARIOS (azul)
+
+
+ADMINISTRACIÓN (naranja)
+
+
+ROLES (verde)
+
+
+INTERFAZ (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador del sistema quiero acceder a un panel centralizado de gestión de usuarios donde pueda visualizar la estructura completa del equipo, asignar roles y realizar acciones administrativas, manteniendo acceso rápido a todas las secciones del CRM.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a la sección "Gestión de Usuarios" desde el menú principal
+
+
+✅ Visualizar lista de usuarios con columnas: USUARIO, ROL, ACCIONES
+
+
+✅ Navegar entre el dashboard principal y la gestión de usuarios
+
+
+✅ Mantener acceso al menú completo del CRM durante la administración
+
+
+✅ Acceder a "Mi Perfil" con todas las opciones de configuración
+
+
+✅ Utilizar modo oscuro desde cualquier sección del sistema
+
+
+✅ Tener navegación consistente entre todas las áreas del CRM
+
+
+✅ Gestionar usuarios sin perder el contexto de otras funcionalidades
+
+
+Checklist de Tareas:
+
+
+Desarrollar interfaz de gestión de usuarios integrada
+
+
+Implementar tabla de usuarios con columnas: USUARIO, ROL, ACCIONES
+
+
+Crear navegación fluida entre dashboard y gestión de usuarios
+
+
+Desarrollar menú lateral con todas las secciones del CRM
+
+
+Implementar sección "Mi Perfil" con sub-opciones
+
+
+Crear toggle de modo oscuro persistente
+
+
+Desarrollar sistema de roles y permisos visual
+
+
+Implementar acciones administrativas por usuario
+
+
+Estructura de Interfaz:
+
+
+Header: Gestión de usuarios
+
+
+Contenido Principal: Tabla de usuarios (USUARIO, ROL, ACCIONES)
+
+
+Menú Lateral: Dashboard completo + Mi Perfil con submenú
+
+
+Navegación: Acceso a todas las secciones del CRM
+
+
+Menú de Navegación Completo:
+
+
+Dashboard, Actividades, Tasaciones, Propiedades, Negocios, Mensajes, Redes, Mapa, Emprendimientos, Contactos, Reportes, Enviar Comentarios, Configuración, Dark Mode
+
+
+Prioridad: Media
+Estimación: 10 puntos
+Epico: Administración del Sistema
+
+
+HU23: Actualización a licencia profesional para habilitar gestión multi-sucursal
+
+
+Etiquetas:
+
+
+LICENCIA (azul)
+
+
+SUCURSALES (naranja)
+
+
+UPGRADE (verde)
+
+
+ORGANIZACIÓN (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como administrador de una inmobiliaria con múltiples ubicaciones quiero actualizar a la licencia profesional para desbloquear la funcionalidad de gestión de sucursales, permitiéndome organizar mejor la información asignando propiedades, negocios y contactos a sus sucursales correspondientes.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar opción de actualización a licencia profesional en el dashboard
+
+
+✅ Acceder a la descripción de beneficios de gestión de sucursales
+
+
+✅ Realizar el upgrade a licencia profesional desde el botón dedicado
+
+
+✅ Habilitar la sección "Gestión de Sucursales" en el menú de perfil después de la actualización
+
+
+✅ Asignar propiedades a sucursales específicas
+
+
+✅ Organizar negocios por sucursal correspondiente
+
+
+✅ Gestionar contactos asignados a cada sucursal
+
+
+✅ Mantener navegación completa al menú de perfil durante el proceso
+
+
+Checklist de Tareas:
+
+
+Desarrollar pantalla de promoción de licencia profesional
+
+
+Implementar descripción clara de beneficios de sucursales
+
+
+Crear proceso de upgrade a licencia profesional
+
+
+Desarrollar módulo de gestión de sucursales
+
+
+Implementar asignador de propiedades por sucursal
+
+
+Crear organizador de negocios por sucursal
+
+
+Desarrollar gestor de contactos multi-sucursal
+
+
+Implementar activación de funcionalidades post-upgrade
+
+
+Beneficios de Licencia Profesional:
+
+
+🏢 Organización: Mejor estructuración de información
+
+
+📍 Asignación: Propiedades, negocios y contactos por sucursal
+
+
+🎯 Segmentación: Datos organizados por ubicación física
+
+
+📊 Control: Gestión centralizada multi-sucursal
+
+
+Botón de Acción: "+ Actualiza a Licencia Profesional"
+
+
+Menú de Perfil Disponible:
+
+
+Perfil de la Inmobiliaria
+
+
+Integraciones
+
+
+Gestión de Usuarios
+
+
+Gestión de Sucursales (habilitado post-upgrade)
+
+
+Automatización
+
+
+Optimizaciones
+
+
+Sitio Web
+
+
+Blog
+
+
+Actualizar mi suscripción
+
+
+Invita y gana
+
+
+Ayuda
+
+
+Cerrar sesión
+
+
+Prioridad: Media
+Estimación: 16 puntos
+Epico: Gestión Empresarial
+
+
+HU24: Sistema de optimizaciones y corrección de propiedades para MercadoLibre
+
+
+Etiquetas:
+
+
+OPTIMIZACIÓN (azul)
+
+
+MERCEDOLIBRE (naranja)
+
+
+CORRECCIÓN (verde)
+
+
+PUBLICACIONES (púrpura)
+
+
+PRIORIDAD MEDIA (amarillo)
+
+
+Descripción:
+Como usuario del CRM quiero acceder a un sistema de optimizaciones que me permita identificar y corregir propiedades, publicaciones y negocios que requieren atención, específicamente enfocado en la integración con MercadoLibre para mantener mis avisos actualizados y efectivos.
+
+
+Criterios de Aceptación:
+
+
+✅ Acceder a la sección "Optimizaciones" desde el dashboard principal
+
+
+✅ Visualizar categorías de optimización disponibles (MercadoLibre)
+
+
+✅ Ver estado de avisos por corregir en MercadoLibre
+
+
+✅ Recibir confirmación cuando no hay avisos pendientes de republicar
+
+
+✅ Identificar propiedades que requieren corrección o actualización
+
+
+✅ Gestionar publicaciones que necesitan optimización
+
+
+✅ Revisar negocios que pueden mejorar su presentación
+
+
+✅ Continuar con otras tareas del día cuando no hay correcciones pendientes
+
+
+Checklist de Tareas:
+
+
+Desarrollar módulo de optimizaciones del CRM
+
+
+Implementar sistema de categorías de optimización
+
+
+Crear integración con MercadoLibre para detección de avisos
+
+
+Desarrollar detector de propiedades que requieren corrección
+
+
+Implementar sistema de alertas para publicaciones por optimizar
+
+
+Crear gestor de negocios que necesitan mejoras
+
+
+Desarrollar estado "Fantástico" cuando no hay correcciones pendientes
+
+
+Implementar mensajes motivacionales para continuar con tareas
+
+
+Estados de Optimización:
+
+
+✅ Óptimo: "Fantástico: No tienes avisos por republicar"
+
+
+✅ Continuidad: "Puedes continuar con tus tareas del día"
+
+
+⚠️ Pendiente: (Cuando hay avisos por corregir)
+
+
+Categorías Disponibles:
+
+
+MercadoLibre: Avisos y publicaciones en la plataforma
+
+
+Prioridad: Media
+Estimación: 9 puntos
+Epico: Optimizaciones del Sistema
+
+
+HU25: Gestión y seguimiento de proceso de tasaciones inmobiliarias
+
+
+Etiquetas:
+
+
+TASACIONES (azul)
+
+
+ESTADÍSTICAS (naranja)
+
+
+SEGUIMIENTO (verde)
+
+
+CONSULTAS (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar y dar seguimiento a todo el proceso de tasaciones, desde la consulta inicial hasta la tasación final, manteniendo un control centralizado de clientes, propiedades y fechas para optimizar mi flujo de trabajo.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar estadísticas del proceso de tasaciones: Nueva consulta, Visita programada, En tasación
+
+
+✅ Acceder a lista detallada de tasaciones con columnas: NOMBRE, CONTACTO, PROPIEDAD, FECHA
+
+
+✅ Filtrar tasaciones por agente asignado
+
+
+✅ Ver estado de tasaciones abiertas/pendientes
+
+
+✅ Utilizar etiquetas para categorizar tipos de tasación
+
+
+✅ Acceder a vista consolidada "Todos" las tasaciones
+
+
+✅ Recibir confirmación cuando no hay consultas pendientes
+
+
+✅ Continuar con otras tareas cuando el flujo de tasaciones está al día
+
+
+Checklist de Tareas:
+
+
+Desarrollar dashboard de estadísticas de tasaciones
+
+
+Implementar columnas: NOMBRE, CONTACTO, PROPIEDAD, FECHA
+
+
+Crear sistema de filtrado por agente
+
+
+Desarrollar indicador de tasaciones abiertas
+
+
+Implementar sistema de etiquetas para categorización
+
+
+Crear vista consolidada "Todos"
+
+
+Desarrollar estado "Fantástico" cuando no hay consultas pendientes
+
+
+Implementar mensaje de continuidad de tareas
+
+
+Estadísticas del Proceso:
+
+
+Nueva consulta: Solicitudes iniciales recibidas
+
+
+Visita programada: Tasaciones con visita agendada
+
+
+En tasación: Procesos activos de valuación
+
+
+Filtros de Análisis:
+
+
+Agente: Filtrar por responsable asignado
+
+
+Tasaciones abiertas: Ver solo pendientes
+
+
+Etiquetas: Categorías personalizables
+
+
+Todos: Vista completa sin filtros
+
+
+Estado Óptimo: "Fantástico: No hay consultas pendientes. Puedes continuar con tus tareas del día."
+
+
+Prioridad: Alta
+Estimación: 11 puntos
+Epico: Gestión de Tasaciones
+
+
+HU26: Gestión integral de propiedades con estados y portal multi-estado
+
+
+Etiquetas:
+
+
+PROPIEDADES (azul)
+
+
+GESTIÓN (naranja)
+
+
+ESTADOS (verde)
+
+
+PORTALES (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar todas las propiedades con un sistema multi-estado que me permita visualizar y filtrar por diferentes fases del ciclo de vida inmobiliario, manteniendo información completa sobre ubicación, calidad, tipo, precio y portales de publicación.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar propiedades organizadas por estados: Activas, Reservadas, Fuera de mercado, Vendidas, Alquiladas, En borrador
+
+
+✅ Acceder a tabla detallada con columnas: FOTO, DIRECCIÓN, CALIDAD, TIPO, PRECIO, PORTALES
+
+
+✅ Ver información completa de cada propiedad: dirección (Calle del Sol, 123, Ciudad), calidad (80), tipo (Apartamento), precio ($250,000), portal (Idealista)
+
+
+✅ Filtrar propiedades por estado actual en el mercado
+
+
+✅ Gestionar propiedades desde borrador hasta estado final (vendida/alquilada)
+
+
+✅ Acceder a modelo de "nueva propiedad" para agregar inmuebles
+
+
+✅ Navegar rápidamente entre secciones relacionadas: Negocios, Mensajes, Redes, etc.
+
+
+Checklist de Tareas:
+
+
+Desarrollar sistema de estados multi-fase para propiedades
+
+
+Implementar tabla con columnas: FOTO, DIRECCIÓN, CALIDAD, TIPO, PRECIO, PORTALES
+
+
+Crear tarjetas de propiedad con información completa
+
+
+Desarrollar filtros por estado: Activas, Reservadas, Fuera de mercado, Vendidas, Alquiladas, En borrador
+
+
+Implementar modelo/formulario de "nueva propiedad"
+
+
+Crear sistema de gestión de calidad de propiedades (indicador 80/100)
+
+
+Desarrollar integración con múltiples portales (Idealista)
+
+
+Implementar navegación rápida entre secciones relacionadas
+
+
+Estados de Propiedad:
+
+
+🟢 Activas: Disponibles en mercado
+
+
+🟡 Reservadas: Con reserva activa
+
+
+🔴 Fuera de mercado: No disponibles temporalmente
+
+
+✅ Vendidas: Proceso de venta completado
+
+
+🏠 Alquiladas: Proceso de alquiler completado
+
+
+📝 En borrador: Propiedades en preparación
+
+
+Información por Propiedad:
+
+
+FOTO: Imagen representativa
+
+
+DIRECCIÓN: Calle del Sol, 123, Ciudad
+
+
+CALIDAD: Indicador numérico (80/100)
+
+
+TIPO: Apartamento, Casa, etc.
+
+
+PRECIO: $250,000
+
+
+PORTALES: Idealista, etc.
+
+
+Prioridad: Alta
+Estimación: 18 puntos
+Epico: Gestión de Propiedades
+
+
+HU27: Gestión de pipeline de negocios con seguimiento multi-etapa
+
+
+Etiquetas:
+
+
+NEGOCIOS (azul)
+
+
+PIPELINE (naranja)
+
+
+SEGUIMIENTO (verde)
+
+
+VENTAS (púrpura)
+
+
+PRIORIDAD ALTA (rojo)
+
+
+Descripción:
+Como agente inmobiliario quiero gestionar todo el pipeline de negocios a través de un sistema de etapas que me permita dar seguimiento desde el contacto inicial hasta el cierre, manteniendo información completa de clientes, propiedades y fechas críticas.
+
+
+Criterios de Aceptación:
+
+
+✅ Visualizar pipeline de negocios por etapas: Nuevo Negocio, Contactado, Visita Programada, En Negociación, Frío
+
+
+✅ Ver contadores de negocios por etapa (Nuevo Negocio: 1, otros: 0)
+
+
+✅ Buscar negocios por nombre, correo electrónico, teléfono y propiedad
+
+
+✅ Filtrar negocios por agente asignado
+
+
+✅ Acceder a vista de "Negocios Abiertos", "Etiquetas" y "Todos"
+
+
+✅ Ver lista detallada con columnas: Nombre, Contacto, Propiedad, Fecha
+
+
+✅ V... (Tiempo restante: 13 KB)
