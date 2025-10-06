@@ -1,0 +1,35 @@
+# Django Framework
+Django>=4.2
+
+# Django REST Framework
+djangorestframework
+
+# PostgreSQL Database
+psycopg2-binary
+
+# PostGIS Extension for Geographic Data
+django-postgis
+
+# Image Processing
+Pillow
+
+# Asynchronous Task Queue
+celery
+
+# Redis for Message Broker
+redis
+
+# Django Channels for Real-time Communication
+django-channels
+
+# Additional libraries for external API integration
+requests
+python-decouple
+django-cors-headers
+dj-database-url
+
+# Development and Testing
+pytest-django
+coverage
+flake8
+black
