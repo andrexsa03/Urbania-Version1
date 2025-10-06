@@ -1,35 +1,27 @@
-# Django Framework
-Django>=4.2
+# Dependencias principales
+Django==4.2.7
+djangorestframework==3.14.0
+psycopg2-binary==2.9.9
+Pillow==10.1.0
 
-# Django REST Framework
-djangorestframework
+# Autenticación y seguridad
+djangorestframework-simplejwt==5.3.0
+django-cors-headers==4.3.0
 
-# PostgreSQL Database
-psycopg2-binary
+# Comunicación y tareas asíncronas
+celery==5.3.4
+redis==5.0.1
+django-celery-beat==2.5.0
 
-# PostGIS Extension for Geographic Data
-django-postgis
+# Integraciones
+requests==2.31.0
+python-dotenv==1.0.0
 
-# Image Processing
-Pillow
+# Tiempo real
+channels==4.0.0
+daphne==4.0.0
 
-# Asynchronous Task Queue
-celery
-
-# Redis for Message Broker
-redis
-
-# Django Channels for Real-time Communication
-django-channels
-
-# Additional libraries for external API integration
-requests
-python-decouple
-django-cors-headers
-dj-database-url
-
-# Development and Testing
-pytest-django
-coverage
-flake8
-black
+# Desarrollo y pruebas
+pytest==7.4.3
+pytest-django==4.7.0
+coverage==7.3.2
