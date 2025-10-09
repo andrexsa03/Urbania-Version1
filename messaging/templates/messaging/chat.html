@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Conversación {{ conversation.id }}</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .chat-container {
+            max-width: 800px;
+            margin: 0 auto;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .chat-header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            border-bottom: 1px solid #34495e;
+        }
+        
+        .chat-header h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+        
+        .participants {
+            font-size: 12px;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #27ae60;
+            margin-right: 5px;
+        }
+        
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #ecf0f1;
+        }
+        
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .message.own {
+            flex-direction: row-reverse;
+        }
+        
+        .message-content {
+            max-width: 70%;
+            padding: 10px 15px;
+            border-radius: 18px;
+            position: relative;
+        }
+        
+        .message.own .message-content {
+            background: #3498db;
+            color: white;
+            margin-left: 10px;
+        }
+        
+        .message:not(.own) .message-content {
+            background: white;
+            color: #2c3e50;
+            margin-right: 10px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        .message-sender {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        
+        .message.own .message-sender {
+            color: rgba(255,255,255,0.8);
+        }
+        
+        .message:not(.own) .message-sender {
+            color: #7f8c8d;
+        }
+        
+        .message-time {
+            font-size: 11px;
+            opacity: 0.7;
+            margin-top: 3px;
+        }
+        
+        .reply-to {
+            font-size: 12px;
+            opacity: 0.8;
+            border-left: 3px solid #bdc3c7;
+            padding-left: 8px;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+        
+        .typing-indicator {
+            padding: 10px 20px;
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .chat-input {
+            border-top: 1px solid #bdc3c7;
+            padding: 15px 20px;
+            background: white;
+        }
+        
+        .input-container {
+            display: flex;
+            gap: 10px;
+            align-items: flex-end;
+        }
+        
+        .message-input {
+            flex: 1;
+            border: 1px solid #bdc3c7;
+            border-radius: 20px;
+            padding: 10px 15px;
+            font-size: 14px;
+            resize: none;
+            max-height: 100px;
+            min-height: 40px;
+        }
+        
+        .message-input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        .send-button {
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .send-button:hover {
+            background: #2980b9;
+        }
+        
+        .send-button:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+        
+        .connection-status {
+            padding: 5px 20px;
+            background: #e74c3c;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+            display: none;
+        }
+        
+        .connection-status.connected {
+            background: #27ae60;
+        }
+        
+        .user-status {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+        }
+        
+        .online-users {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        
+        .online-user {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 2px 8px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>
+                <span class="status-indicator"></span>
+                {{ conversation.title|default:"Chat Directo" }}
+            </h2>
+            <div class="participants">
+                Participantes: 
+                {% for participant in conversation.participants.all %}
+                    {{ participant.get_full_name }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </div>
+            <div class="online-users" id="onlineUsers"></div>
+        </div>
+        
+        <div class="connection-status" id="connectionStatus">
+            Desconectado
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <!-- Los mensajes se cargarán aquí -->
+        </div>
+        
+        <div class="typing-indicator" id="typingIndicator" style="display: none;">
+            Alguien está escribiendo...
+        </div>
+        
+        <div class="chat-input">
+            <div class="input-container">
+                <textarea 
+                    id="messageInput" 
+                    class="message-input" 
+                    placeholder="Escribe tu mensaje..."
+                    rows="1"
+                ></textarea>
+                <button id="sendButton" class="send-button" disabled>
+                    ➤
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Variables globales
+        const conversationId = {{ conversation.id }};
+        const currentUser = {
+            email: '{{ request.user.email }}',
+            name: '{{ request.user.get_full_name }}'
+        };
+        
+        let chatSocket = null;
+        let statusSocket = null;
+        let typingTimer = null;
+        let isTyping = false;
+        
+        // Elementos DOM
+        const chatMessages = document.getElementById('chatMessages');
+        const messageInput = document.getElementById('messageInput');
+        const sendButton = document.getElementById('sendButton');
+        const connectionStatus = document.getElementById('connectionStatus');
+        const typingIndicator = document.getElementById('typingIndicator');
+        const onlineUsers = document.getElementById('onlineUsers');
+        
+        // Inicializar WebSockets
+        function initializeWebSockets() {
+            // WebSocket para chat
+            const wsScheme = window.location.protocol === 'https:' ? 'wss' : 'ws';
+            const chatWsUrl = `${wsScheme}://${window.location.host}/ws/chat/${conversationId}/`;
+            const statusWsUrl = `${wsScheme}://${window.location.host}/ws/user-status/`;
+            
+            // Conectar chat WebSocket
+            chatSocket = new WebSocket(chatWsUrl);
+            
+            chatSocket.onopen = function(e) {
+                console.log('Chat WebSocket conectado');
+                updateConnectionStatus(true);
+            };
+            
+            chatSocket.onmessage = function(e) {
+                const data = JSON.parse(e.data);
+                handleChatMessage(data);
+            };
+            
+            chatSocket.onclose = function(e) {
+                console.log('Chat WebSocket desconectado');
+                updateConnectionStatus(false);
+                // Intentar reconectar después de 3 segundos
+                setTimeout(initializeWebSockets, 3000);
+            };
+            
+            chatSocket.onerror = function(e) {
+                console.error('Error en Chat WebSocket:', e);
+            };
+            
+            // Conectar status WebSocket
+            statusSocket = new WebSocket(statusWsUrl);
+            
+            statusSocket.onopen = function(e) {
+                console.log('Status WebSocket conectado');
+            };
+            
+            statusSocket.onmessage = function(e) {
+                const data = JSON.parse(e.data);
+                handleStatusMessage(data);
+            };
+            
+            statusSocket.onclose = function(e) {
+                console.log('Status WebSocket desconectado');
+            };
+        }
+        
+        // Manejar mensajes del chat
+        function handleChatMessage(data) {
+            switch(data.type) {
+                case 'message':
+                    addMessageToChat(data.message);
+                    break;
+                case 'user_joined':
+                    showSystemMessage(data.message);
+                    break;
+                case 'user_left':
+                    showSystemMessage(data.message);
+                    break;
+                case 'typing':
+                    handleTypingIndicator(data);
+                    break;
+                case 'reaction':
+                    handleReaction(data);
+                    break;
+            }
+        }
+        
+        // Manejar mensajes de estado
+        function handleStatusMessage(data) {
+            if (data.type === 'status_update') {
+                updateUserStatus(data);
+            }
+        }
+        
+        // Actualizar estado de conexión
+        function updateConnectionStatus(connected) {
+            if (connected) {
+                connectionStatus.textContent = 'Conectado';
+                connectionStatus.className = 'connection-status connected';
+                connectionStatus.style.display = 'block';
+                setTimeout(() => {
+                    connectionStatus.style.display = 'none';
+                }, 2000);
+            } else {
+                connectionStatus.textContent = 'Desconectado - Intentando reconectar...';
+                connectionStatus.className = 'connection-status';
+                connectionStatus.style.display = 'block';
+            }
+        }
+        
+        // Agregar mensaje al chat
+        function addMessageToChat(message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${message.sender.email === currentUser.email ? 'own' : ''}`;
+            
+            let replyHtml = '';
+            if (message.reply_to) {
+                replyHtml = `
+                    <div class="reply-to">
+                        Respondiendo a ${message.reply_to.sender}: ${message.reply_to.content}
+                    </div>
+                `;
+            }
+            
+            messageDiv.innerHTML = `
+                <div class="message-content">
+                    <div class="message-sender">${message.sender.name}</div>
+                    ${replyHtml}
+                    <div class="message-text">${message.content}</div>
+                    <div class="message-time">${formatTime(message.created_at)}</div>
+                </div>
+            `;
+            
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // Mostrar mensaje del sistema
+        function showSystemMessage(text) {
+            const messageDiv = document.createElement('div');
+            messageDiv.style.textAlign = 'center';
+            messageDiv.style.color = '#7f8c8d';
+            messageDiv.style.fontSize = '12px';
+            messageDiv.style.margin = '10px 0';
+            messageDiv.textContent = text;
+            
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // Manejar indicador de escritura
+        function handleTypingIndicator(data) {
+            if (data.is_typing) {
+                typingIndicator.textContent = `${data.user_name} está escribiendo...`;
+                typingIndicator.style.display = 'block';
+            } else {
+                typingIndicator.style.display = 'none';
+            }
+        }
+        
+        // Enviar mensaje
+        function sendMessage() {
+            const content = messageInput.value.trim();
+            if (content && chatSocket.readyState === WebSocket.OPEN) {
+                chatSocket.send(JSON.stringify({
+                    'type': 'message',
+                    'content': content
+                }));
+                
+                messageInput.value = '';
+                sendButton.disabled = true;
+                stopTyping();
+            }
+        }
+        
+        // Enviar indicador de escritura
+        function sendTypingIndicator(isTyping) {
+            if (chatSocket.readyState === WebSocket.OPEN) {
+                chatSocket.send(JSON.stringify({
+                    'type': 'typing',
+                    'is_typing': isTyping
+                }));
+            }
+        }
+        
+        // Iniciar escritura
+        function startTyping() {
+            if (!isTyping) {
+                isTyping = true;
+                sendTypingIndicator(true);
+            }
+            
+            clearTimeout(typingTimer);
+            typingTimer = setTimeout(stopTyping, 3000);
+        }
+        
+        // Parar escritura
+        function stopTyping() {
+            if (isTyping) {
+                isTyping = false;
+                sendTypingIndicator(false);
+            }
+            clearTimeout(typingTimer);
+        }
+        
+        // Formatear tiempo
+        function formatTime(timestamp) {
+            const date = new Date(timestamp);
+            return date.toLocaleTimeString('es-ES', { 
+                hour: '2-digit', 
+                minute: '2-digit' 
+            });
+        }
+        
+        // Event listeners
+        messageInput.addEventListener('input', function() {
+            sendButton.disabled = this.value.trim() === '';
+            startTyping();
+        });
+        
+        messageInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+        
+        sendButton.addEventListener('click', sendMessage);
+        
+        // Auto-resize textarea
+        messageInput.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = Math.min(this.scrollHeight, 100) + 'px';
+        });
+        
+        // Inicializar cuando se carga la página
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeWebSockets();
+            messageInput.focus();
+        });
+        
+        // Limpiar al cerrar la página
+        window.addEventListener('beforeunload', function() {
+            if (chatSocket) {
+                chatSocket.close();
+            }
+            if (statusSocket) {
+                statusSocket.close();
+            }
+        });
+    </script>
+</body>
+</html>
